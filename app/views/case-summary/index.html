@@ -1,0 +1,132 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">My cases</h1>
+
+      <p>This page shows a summary of your cases with the Child Maintenance Service. We've shown an overview of each case, but you can see the full details by clicking on the 'See my maintenance calculation' link.</p>
+
+      <p>You can also see your previous calculations by clicking the 'View calculation history' button below.</p>
+
+      <p class="govuk-body ">If you think any of these details are wrong, please <a href="#">contact us</a> immediately as this could affect your child maintenance calculation.</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="#">View calculation history</a></li>
+        <li><a href="#">Update your personal details</a></li>
+      </ul>
+
+      
+      <h2 class="govuk-heading-l">Collect & Pay case summary</h2>
+
+      <h3 class="govuk-heading-m">Case details</h3>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              Case year start date
+          </dt>
+          <dd class="govuk-summary-list__value">
+              01/01/2018
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Annual Review date 
+            </dt>
+            <dd class="govuk-summary-list__value">
+                01/01/2018
+            </dd>
+        </div>
+      </dl>
+
+      <h3 class="govuk-heading-m">Who</h3>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              Child 1
+          </dt>
+          <dd class="govuk-summary-list__value">
+              Child Forename 1
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Paying parent
+            </dt>
+            <dd class="govuk-summary-list__value">
+                Paying parent
+            </dd>
+        </div>
+      </dl>
+
+      <h3 class="govuk-heading-m">Maintenance</h3>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              Method of payment 
+          </dt>
+          <dd class="govuk-summary-list__value">
+              Direct Payment
+          </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Date payment was received
+            </dt>
+            <dd class="govuk-summary-list__value">
+                01/01/2018
+            </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Total due for the current period (£) 
+            </dt>
+            <dd class="govuk-summary-list__value">
+                49.99
+            </dd>
+        </div>
+
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Balance (£) 
+            </dt>
+            <dd class="govuk-summary-list__value">
+                49.99
+            </dd>
+        </div>
+      </dl>
+
+      <h3 class="govuk-heading-m">What do you want to do?</h3>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="#">See my maintenance calculation</a></li>
+        <li><a href="#">Change my bank details</a></li>
+      </ul>
+      
+    </div>
+  </div>
+{% endblock %}

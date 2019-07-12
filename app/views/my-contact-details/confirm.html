@@ -1,0 +1,63 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">Confirm changes</h1>
+    
+
+      <h2 class="govuk-heading-m">Personal details</h2>
+
+        <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Name
+            </dt>
+            <dd class="govuk-summary-list__value">
+              Mrs Receiving Parent
+            </dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="change">
+                Change<span class="govuk-visually-hidden"> name</span>
+              </a>
+            </dd>
+          </div>
+        </dl>
+
+      <h2 class="govuk-heading-m">Now send your application</h2>
+
+      <p>Please double check these details are correct and then click 'Send'. If they are wrong, just click 'change' to change them.</p>
+          
+      <p>Remember, you'll need to send us proof of your name change before we can update our records.</p>
+
+      <form action="confirm" method="POST">
+          <button type="submit" class="govuk-button">
+              Accept and send
+          </button>
+      </form>
+
+      <p>
+          <a href="#">Cancel</a>
+        </p>
+
+
+    </div>
+  </div>
+{% endblock %}

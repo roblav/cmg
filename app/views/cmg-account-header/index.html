@@ -1,0 +1,58 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+{% from 'phase-banner/macro.njk' import govukPhaseBanner %}
+
+{% from 'header/macro.njk' import govukHeader %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block after_header %}
+<!-- ACCOUNT MENU -->
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      <nav id="secondary-nav" class="account-menu" role="navigation" aria-label="Account">
+        <a href="#" class="account-menu__link account-menu__link--home account-menu__link--active">
+          <span class="account-icon account-icon--home">Home</span>
+        </a>
+        <ul class="account-menu__main js-hidden">
+          <li><a href="#" class="account-menu__link">Payments</a></li>
+          <li><a href="#" class="account-menu__link">Messages</a></li>
+          <li><a href="#" class="account-menu__link">Case details</a></li>
+          <li><a href="#" class="account-menu__link">Details & circumstances</a></li>
+          <li><a href="#" class="account-menu__link">Details & circumstances</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</div>
+  <!-- END ACCOUNT MENU -->
+{% endblock %}
+
+
+{% block content %}
+
+
+
+<!-- GOV.UK HEADER -->
+<div id="global-header-bar"></div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">CMG Account Header</h1>
+
+      <p>This page shows a summary of your cases with the Child Maintenance Service. We've shown an overview of each case, but you can see the full details by clicking on the 'See my maintenance calculation' link.</p>
+
+      
+    </div>
+  </div>
+{% endblock %}

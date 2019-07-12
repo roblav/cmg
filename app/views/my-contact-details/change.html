@@ -1,0 +1,84 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <form action="change" method="POST">
+      <fieldset class="govuk-fieldset">
+        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+          <h1 class="govuk-fieldset__heading">
+            My new name
+          </h1>
+        </legend>
+
+        <p>Please enter your new name here.</p>
+      
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="name-title">
+            Title
+          </label>
+          <select class="govuk-input" id="name-title" name="name-title">
+            <option value="CAPTAIN">Captain</option>
+            <option value="COLONEL">Colonel</option>
+            <option value="DAME">Dame</option>
+            <option value="DR">Dr.</option>
+            <option value="LADY">Lady</option>
+            <option value="LORD">Lord</option>
+            <option value="MAJOR">Major</option>
+            <option value="MISS">Miss</option>
+            <option value="MR">Mr.</option>
+            <option selected="selected" value="MRS">Mrs.</option>
+            <option value="MS">Ms.</option>
+            <option value="PROFESSOR">Professor</option>
+            <option value="REV">Rev.</option>
+            <option value="SIR">Sir</option>
+          </select>
+        </div>
+      
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="first-name">
+            First name
+          </label>
+          <input class="govuk-input" id="first-name" name="first-name" type="text">
+        </div>
+      
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="surname">
+            Surname
+          </label>
+          <input class="govuk-input govuk-!-width-two-thirds" id="surname" name="surname" type="text">
+        </div>
+    
+      
+      </fieldset>
+
+      <button type="submit" class="govuk-button">
+          Update
+      </button>
+    </form>
+
+    <p>
+        <a href="#">Cancel</a>
+      </p>
+
+
+    </div>
+  </div>
+{% endblock %}

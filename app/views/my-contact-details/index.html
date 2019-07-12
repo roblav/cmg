@@ -1,0 +1,148 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">My contact details</h1>
+
+      <p class="govuk-body">There are your contact details. If any of them are wrong or you want to add or remove information, you can make changes here.</p>
+
+      <p class="govuk-body">It's important that we've got all your details and that they are correct. Any incorrect or missing details could delay important messages from us.</p>
+
+      <h2 class="govuk-heading-m">My phone numbers</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Home
+            </dt>
+            <dd class="govuk-summary-list__value">
+               0191 111 111
+            </dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="change">
+                Change<span class="govuk-visually-hidden">Home phone number</span>
+              </a>
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                  Mobile
+              </dt>
+              <dd class="govuk-summary-list__value">
+                07711111111
+              </dd>
+              <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="change">
+                  Change<span class="govuk-visually-hidden"> Mobile phone number</span>
+                </a>
+              </dd>
+            </div>
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">
+                    Work
+                </dt>
+                <dd class="govuk-summary-list__value">
+                    0191 111 111
+                </dd>
+                <dd class="govuk-summary-list__actions">
+                  <a class="govuk-link" href="change">
+                    Change<span class="govuk-visually-hidden"> Work phone number</span>
+                  </a>
+                </dd>
+              </div>
+        </dl>
+
+ 
+
+
+      <h2 class="govuk-heading-m">My home address</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Home address
+          </dt>
+          <dd class="govuk-summary-list__value">
+              2 Test Street, Address Line 2, Durham, test, DH3 3SQ, England
+          </dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="change">
+              Change<span class="govuk-visually-hidden">Home address</span>
+            </a>
+          </dd>
+        </div>
+      </dl>
+
+      <h2 class="govuk-heading-m">My email address</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              Email address
+          </dt>
+          <dd class="govuk-summary-list__value">
+              AUN@hotmail.com
+          </dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="change">
+              Change<span class="govuk-visually-hidden">Email address</span>
+            </a>
+          </dd>
+        </div>
+      </dl>
+
+      <h2 class="govuk-heading-m">My contact preferences</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              I want you to:
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Opt in to receive automatic SMS text updates on your case (for Collect &amp; Pay cases only)
+          </dd>
+          <dd class="govuk-summary-list__actions">
+            <a class="govuk-link" href="change">
+              Change<span class="govuk-visually-hidden">My contact preferences</span>
+            </a>
+          </dd>
+        </div>
+      </dl>
+
+
+
+      <!-- <h2 class="govuk-heading-m">Now send your application</h2>
+
+      <p class="govuk-body">By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.</p>
+
+      <form action="/form-handler" method="post" novalidate>
+
+        <input type="hidden" name="answers-checked" value="true">
+
+        {{ govukButton({
+          text: "Accept and send"
+        }) }}
+
+      </form> -->
+
+    </div>
+  </div>
+{% endblock %}

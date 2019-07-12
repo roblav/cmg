@@ -25,7 +25,7 @@ const routes = require('./app/routes.js')
 const utils = require('./lib/utils.js')
 const extensions = require('./lib/extensions/extensions.js')
 
-// Variables for v6 backwards compatibility
+// Variables for v6 backwards comcpatibility
 // Set false by default, then turn on if we find /app/v6/routes.js
 var useV6 = false
 var v6App

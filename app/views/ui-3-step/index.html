@@ -1,0 +1,119 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">My personal details</h1>
+
+      <p>The details we have for you are shown below. If your name is wrong or if you want to change the name we use for you, you can ask us to update it here.</p>
+
+      <p class="govuk-body govuk-!-font-weight-bold">If you need to change any other details or any of your children's details, please <a href="#">contact us</a>.</p>
+
+      <h2 class="govuk-heading-m">My details</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              My full name
+            </dt>
+            <dd class="govuk-summary-list__value">
+              Mrs Receiving Parent
+            </dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="change">
+                Change<span class="govuk-visually-hidden"> name</span>
+              </a>
+            </dd>
+          </div>
+
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                  My date of birth
+              </dt>
+              <dd class="govuk-summary-list__value">
+                  01 January 1980
+              </dd>
+              <dd class="govuk-summary-list__actions"></dd>
+          </div>
+
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                  My gender
+              </dt>
+              <dd class="govuk-summary-list__value">
+                  Female
+              </dd>
+              <dd class="govuk-summary-list__actions"></dd>
+          </div>
+
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                  My National Insurance number
+              </dt>
+              <dd class="govuk-summary-list__value">
+                  AB0****0A
+              </dd>
+              <dd class="govuk-summary-list__actions"></dd>
+          </div>
+        </dl>
+
+ 
+
+
+      <h2 class="govuk-heading-m">My children's details</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Other Parent
+            </dt>
+            <dd class="govuk-summary-list__value">
+                Paying Parent
+            </dd>
+          </div>
+
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                  Child Forename
+              </dt>
+              <dd class="govuk-summary-list__value">
+                  1
+              </dd>
+          </div>
+          </dl>
+
+
+      <!-- <h2 class="govuk-heading-m">Now send your application</h2>
+
+      <p class="govuk-body">By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.</p>
+
+      <form action="/form-handler" method="post" novalidate>
+
+        <input type="hidden" name="answers-checked" value="true">
+
+        {{ govukButton({
+          text: "Accept and send"
+        }) }}
+
+      </form> -->
+
+    </div>
+  </div>
+{% endblock %}

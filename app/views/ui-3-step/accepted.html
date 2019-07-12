@@ -1,0 +1,49 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <div class="govuk-panel govuk-panel--confirmation">
+        <h1 class="govuk-panel__title">
+          Changes sent
+        </h1>
+        <div class="govuk-panel__body">
+            Thank you for telling us about your name change.
+        </div>
+      </div>
+
+      <p>We'll contact you within the next 48 hours to tell you what proof we need and where to send it.</p>
+
+      <h2 class="govuk-heading-m">When we receive your documents</h2>
+          
+      <p>We'll let you know when we've changed your name details, using your preferred method of contact. We'll also return your documents to you at your home address (or your postal address if you have provided one) as soon as possible.</p>
+
+      <h2 class="govuk-heading-m">What do you want to do now?</h2>
+
+      <p>
+        <a href="#">Change more details</a>
+      </p>
+      <p>
+        <a href="#">Return to my homepage</a>
+      </p>
+
+    </div>
+  </div>
+{% endblock %}
