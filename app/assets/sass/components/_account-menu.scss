@@ -5,7 +5,12 @@ $light-blue: #2B8CC4;
 $govuk-blue: #005EA5;
 $focus-colour: #FFBF47;
 $black: #000;
-$canvas-colour: #fff;
+$canvas-colour: #f8f8f8;
+
+.hidden, .js-enabled .js-hidden, .js .js-hidden {
+  display: none;
+  visibility: hidden;
+}
 
 .account-icon {
   background-repeat: no-repeat;
@@ -22,13 +27,6 @@ $canvas-colour: #fff;
   // }
 }
 
-.service-info {
-  display: block;
-  position: relative;
-  z-index: 997;
-  overflow: hidden;
-}
-
 .account-menu {
   // @extend %contain-floats;
   background-color: #fff;
@@ -37,10 +35,6 @@ $canvas-colour: #fff;
   position: relative;
   transition: all .3s ease-in-out;
   display: flow-root;
-
-  &.subnav-is-open {
-    margin-bottom: 5em;
-  }
 }
 
 .is-smaller.account-menu {
@@ -57,6 +51,10 @@ $canvas-colour: #fff;
       padding-right: 0;
     }
   }
+}
+
+#accountMenuLink {
+  float: right;
 }
 
 .account-menu__link {
@@ -106,8 +104,7 @@ $canvas-colour: #fff;
   padding: 12px 18px 8px 0;
 }
 
-.is-smaller .account-menu__link--home,
-.is-smaller .account-menu__link--menu {
+.is-smaller .account-menu__link--home{
   padding-left: 0;
 
   &:hover {
@@ -132,12 +129,6 @@ $canvas-colour: #fff;
   }
 }
 
-.account-menu__link--menu {
-  border-bottom: 4px solid transparent;
-  float: right;
-  padding: 12px 20px 8px 0;
-}
-
 .account-menu__link--active,
 .account-menu__link--active:visited {
   border-bottom: 4px solid $govuk-blue;
@@ -158,47 +149,17 @@ $canvas-colour: #fff;
 
 .is-smaller {
   .account-menu__main {
+    padding: 0;
     background-color: $canvas-colour;
     clear: both;
     float: none;
-
-    &.main-nav-is-open,
-    &.subnav-is-open {
-      border-top: 1px solid $grey-2;
-      position: relative;
-
-      &:before,
-      &:after {
-        border: solid transparent;
-        bottom: 100%;
-        content: " ";
-        height: 0;
-        pointer-events: none;
-        position: absolute;
-        right: 4px;
-        width: 0;
-      }
-
-      &:before {
-        border-bottom-color: $grey-2;
-        border-width: 7px;
-        right: 3px;
-      }
-
-      &:after {
-        border-bottom-color: $canvas-colour;
-        border-width: 6px;
-        margin-left: -6px;
-      }
-    }
 
     li {
       border-bottom: 1px solid $grey-2;
       display: block;
       overflow: hidden;
 
-      &:last-child,
-      &.active-subnav-parent {
+      &:last-child {
         border-bottom: none;
       }
     }
@@ -211,144 +172,6 @@ $canvas-colour: #fff;
       }
     }
   }
-
-  .account-menu__link--back {
-    background-image: url("../images/icon-chevron-left.svg");
-    background-position: 10px;
-    background-repeat: no-repeat;
-    background-size: 12px;
-    border-bottom: 1px solid $grey-3;
-    padding-left: 20px;
-
-    // @include ie-lte(9) {
-    //   background-image: url("../images/icon-chevron-left.png");
-    // }
-
-    .account-menu__link {
-      padding: 12px 8px 8px;
-
-      &:focus {
-        outline: none;
-      }
-    }
-  }
-}
-
-.subnav {
-  // @include core-16;
-  // @extend %contain-floats;
-  background-color: $canvas-colour;
-  border-bottom: 1px solid $grey-2;
-  display: none;
-  left: 0;
-  outline: none;
-  position: absolute;
-  top: -61px;
-  transition: all .3s ease-in-out;
-  width: 100%;
-  z-index: -1;
-
-  p {
-    // @include core-16;
-  }
-
-  a {
-    text-decoration: none;
-
-    &:visited {
-      color: $govuk-blue;
-    }
-
-    &:hover {
-      color: $light-blue;
-      text-decoration: underline;
-    }
-  }
-
-  &.subnav-reveal {
-    display: block;
-    top: 43px;
-  }
-}
-
-.is-smaller .subnav {
-  border-bottom: none;
-  margin: 0 0 0 10px;
-  outline: none;
-  padding: 0;
-  position: relative;
-  top: inherit;
-  transition: none;
-  z-index: 1;
-
-  &.subnav-reveal {
-    display: block;
-  }
-}
-
-.subnav .subnav__section {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  &:first-child {
-    > p,
-    > div a {
-      padding-left: 30px;
-      padding-right: 15px;
-    }
-  }
-
-  &:nth-child(2) {
-    > p,
-    > div a {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
-
-  &:last-child {
-    > p,
-    > div a {
-      padding-right: 30px;
-    }
-  }
-}
-
-.is-smaller .subnav__section {
-  border-bottom: 1px solid $grey-2;
-  margin: 0;
-  padding: 1em 0 1em 0;
-  width: 100%;
-
-  &:last-child {
-    border-bottom: none;
-  }
-
-  a:hover {
-    color: $govuk-blue;
-  }
-
-  &:first-child,
-  &:nth-child(2),
-  &:last-child {
-    > p,
-    > div a {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-}
-
-p.subnav__section__heading {
-  // @include bold-16;
-  font-weight: 400;
-  margin: 0;
-  padding-bottom: 5px;
-}
-
-.is-smaller p.subnav__section__heading {
-  // @include bold-16;
-  font-weight: 600;
-  margin-bottom: 7px;
 }
 
 .js-enabled .account-menu__link--menu,
