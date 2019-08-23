@@ -4,6 +4,7 @@ const moment = require('moment');
 const fs = require('fs');
 
 const paymentsHandler = require('./routes//paymentsHandler');
+const processAtosResponse = require('./routes/processAtosResponse');
 
 const pdfDoc = require('../public/json/testData.json');
 const tableData = require('../public/json/tableData.json');
@@ -101,7 +102,10 @@ router.get('/table-sort-pagination/', tableSortHandler)
 router.get('/table-sort-pagination/:page', tableSortHandler)
 router.get('/table-sort-pagination/:page/:sortBy', tableSortHandler)
 
-router.get('/payments/', paymentsHandler.createPEMFile)
+// router.get('/my-payments/', paymentsHandler.createPEMFile)
+
+router.get('/my-payments/', processAtosResponse.processAtosPaymentHandler)
+
 
 
 module.exports = router
