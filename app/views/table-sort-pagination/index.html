@@ -1,0 +1,61 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "#"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">Table Sort & Pagination</h1>
+
+      {# {{tableData | dump}} #}
+
+      {{tableKey}}
+
+      <table class="govuk-table" id="tableID">
+          <caption class="govuk-table__caption">Table Sort</caption>
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="col"><a href="/table-sort-pagination/{{currentPage}}/firstName#tableID">First Name</a></th>
+              <th class="govuk-table__header" scope="col"><a href="/table-sort-pagination/{{currentPage}}/lastName#tableID">Last Name</a></th>
+              <th class="govuk-table__header" scope="col"><a href="/table-sort-pagination/{{currentPage}}/nino#tableID">Nino</a></th>
+              <th class="govuk-table__header" scope="col"><a href="/table-sort-pagination/{{currentPage}}/targetAmount#tableID">Target Amount</a></th>
+              <th class="govuk-table__header" scope="col"><a href="/table-sort-pagination/{{currentPage}}/actualAmount#tableID">Actual Amount</a></th>
+            </tr>
+          </thead>
+          <tbody class="govuk-table__body">
+            {% for order in tableData %}
+            <tr class="govuk-table__row">
+              <td class="govuk-table__cell">{{order.firstName}}</td>
+              <td class="govuk-table__cell">{{order.lastName}}</td>
+              <td class="govuk-table__cell">{{order.nino}}</td>
+              <td class="govuk-table__cell">{{order.targetAmount}}</td>
+              <td class="govuk-table__cell">{{order.actualAmount}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <ul>
+        {% for page in pageNav.pages %}
+          <li class="page-nav-item"><a href="/table-sort-pagination/{{loop.index}}/{{sortBy}}#tableID"> {{ page }} </a></li>
+        {% endfor %}
+        </ul>
+
+    </div>
+  </div>
+{% endblock %}

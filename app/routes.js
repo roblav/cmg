@@ -3,7 +3,12 @@ const router = express.Router()
 const moment = require('moment');
 const fs = require('fs');
 
+const paymentsHandler = require('./routes//paymentsHandler');
+
 const pdfDoc = require('../public/json/testData.json');
+const tableData = require('../public/json/tableData.json');
+
+const paginate = require('../lib/paginate');
 
 // Add your routes here - above the module.exports line
 
@@ -37,6 +42,66 @@ router.post('/calc-history', function (req, res) {
   
 
 })
+
+function tableSort(key, res, order='asc') {
+  return function(a, b) {
+    console.log('Old: ', res.locals);
+    if (key === res.locals.tableKey) { order='desc' };
+    if(!a.hasOwnProperty(key) || !b.hasOwnProperty(key)) {
+      // property doesn't exist on either object
+      return 0;
+    }
+
+    const varA = (typeof a[key] === 'string') ?
+      a[key].toUpperCase() : a[key];
+    const varB = (typeof b[key] === 'string') ?
+      b[key].toUpperCase() : b[key];
+
+    let comparison = 0;
+    if (varA > varB) {
+      comparison = 1;
+    } else if (varA < varB) {
+      comparison = -1;
+    }
+    return (
+      (order == 'desc') ? (comparison * -1) : comparison
+    );
+  };
+}
+
+
+function tableSortHandler(req, res) {
+  const page = req.params.page === undefined ? 1 : Number(req.params.page);
+  // Show 5 records at a time
+  const recordsPerPage = 10;
+  const pageNav = paginate(
+    totalItems = tableData.orders.length,
+    currentPage = page,
+    pageSize = recordsPerPage,
+    maxPages = 10);
+  // Limit the tableData records to the range 
+  const upperRange = recordsPerPage * page;
+
+  // Table Sort
+  // First Name - ASC / DESC
+  const sortBy = req.params.sortBy === undefined ? '' : req.params.sortBy;
+  if (sortBy !== undefined ) {
+    tableData.orders.sort(tableSort(sortBy, res));
+    res.locals.tableKey = sortBy;
+    console.log('New: ', res.locals.tableKey);
+  }
+  // console.log(tableData.orders.sort())
+
+  const orders = tableData.orders.slice(upperRange - recordsPerPage, upperRange)
+
+  res.render('table-sort-pagination/index', {tableData: orders, pageNav, currentPage: page, sortBy})
+};
+
+router.get('/table-sort-pagination/', tableSortHandler)
+router.get('/table-sort-pagination/:page', tableSortHandler)
+router.get('/table-sort-pagination/:page/:sortBy', tableSortHandler)
+
+router.get('/payments/', paymentsHandler.createPEMFile)
 
 
 module.exports = router

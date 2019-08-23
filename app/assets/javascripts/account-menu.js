@@ -6,53 +6,40 @@ function accountMenuSmall(x) {
   let accountMenuMain = accountMenu.getElementsByTagName('ul')[0];
   let accountMenuHome = document.querySelector('.account-menu__link--home');
 
-  let accountMenuLink = document.createElement('a');
-  accountMenuLink.setAttribute('id', 'accountMenuLink');
-  accountMenuLink.setAttribute('href', '#');
-  accountMenuLink.setAttribute('aria-hidden', 'false');
-  accountMenuLink.setAttribute('aria-expanded', 'false');
-  accountMenuLink.classList.add('account-menu__link', 'account-menu__link--menu', 'js-visible');
-  accountMenuLink.innerHTML += 'Menu'
-  accountMenuLink.addEventListener('click', event => {
-    accountMenuMain.classList.toggle('js-hidden');
-    accountMenuLink.toggleAttribute('aria-expanded');
+  // Create menu button
+  let accountMenuButton = document.createElement('button');
+  accountMenuButton.setAttribute('id', 'accountMenuButton');
+  accountMenuButton.setAttribute('aria-expanded', 'false');
+  accountMenuButton.setAttribute('aria-controls', 'accountMenuMain');
+  accountMenuButton.classList.add('account-menu__link', 'account-menu__link--menu', 'js-visible');
+  accountMenuButton.innerHTML += 'Menu'
+
+  // Add button event listener
+  accountMenuButton.addEventListener('click', event => {
+    if (accountMenuMain.classList.contains('js-hidden')) {
+      accountMenuButton.setAttribute('aria-expanded', 'false');
+      accountMenuMain.classList.remove('js-hidden');
+    } else {
+      accountMenuMain.classList.add('js-hidden'); 
+      accountMenuButton.setAttribute('aria-expanded', 'true');
+    }
   });
-  // <a href="#" class="account-menu__link account-menu__link--menu js-visible" aria-hidden="false" aria-expanded="false">Menu</a>
 
 
-  if (x.matches) { // If media query matches
-    accountMenu.classList.add('is-smaller');
+  if (x.matches) { 
+    // If media query matches
+    // Add menu button to account header and hide menu
+    accountMenuHome.after(accountMenuButton);
     accountMenuMain.classList.add('js-hidden');
-    // Add menu link to account header
-    accountMenuHome.after(accountMenuLink);
-    var el = document.getElementById('accountMenuLink');
   } else {
-    accountMenu.classList.remove('is-smaller');
     accountMenuMain.classList.remove('js-hidden');
-    var el = document.getElementById('accountMenuLink');
+    var el = document.getElementById('accountMenuButton');
     if (el) {
       el.remove();
     }
   }
-
 }
-
-function toggleMenu() {
-
-}
-
-// function initApp() {
-//   accountMenuSmall();
-// }
 
 var x = window.matchMedia("(max-width: 840px)")
 accountMenuSmall(x) // Call listener function at run time
 x.addListener(accountMenuSmall) // Attach listener function on state
-
-
-// Alternative to load event
-document.onreadystatechange = () => {
-  if (document.readyState === 'complete') {
-    // initApp();
-  }
-};

@@ -15,3 +15,12 @@ $govuk-global-styles: true;
 @import "components/lang-toggle";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+// Pagination
+
+.page-nav-item {
+  width: 20px;
+  list-style: none;
+  float: left;
+}
+  
