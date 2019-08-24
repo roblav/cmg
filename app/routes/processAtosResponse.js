@@ -1,6 +1,8 @@
 const { parseString } = require('xml2js');
 const fs = require('fs');
 const pem = require('pem-file')
+const NodeRSA = require('node-rsa');
+const key = new NodeRSA({b: 512});
 
 const atosValidResponse = require('../lib/helpers/atosValidResponse');
 
@@ -12,30 +14,18 @@ function processAtosPaymentHandler(req, res) {
   // const isAtosResultValid = atosValidResponse(atosResult.toString());
   let clientPublicPEM;
   
-    // console.log(util.inspect(result, false, null, true));
-  // console.log(JSON.stringify(
-  //   result.paymentManualConfirmation.Signature[0].KeyInfo[0].X509Data[0].X509Certificate[0]
-  // ));
   parseString(xml, (err, result) => {
     cert = result.paymentManualConfirmation.Signature[0].KeyInfo[0].X509Data[0].X509Certificate[0];
-    // console.log(cert);
-    // Load certificate in PEM encoding (base64 encoded DER)
-    // const source = Buffer.from(cert)
-    // clientPublicPEM = pem.encode(source, 'CERTIFICATE');
-    clientPublicPEM = 
-`-----BEGIN CERTIFICATE-----
-${cert}
------END CERTIFICATE-----`
+    clientPublicPEM = `-----BEGIN CERTIFICATE-----\n${cert}\n-----END CERTIFICATE-----`;
     fs.writeFile("./app/tls/test.pem", clientPublicPEM, function(err) {
       if(err) {
           return console.log(err);
       }
-  
       console.log("The file was saved!");
-  }); 
-    // console.log("clientPublicPEM: ", clientPublicPEM);
+    });
   });
 
+  console.log("Dont CHECK FILE YET!");
   const isAtosResultValid = atosValidResponse(xml);
 
   if (isAtosResultValid) {
