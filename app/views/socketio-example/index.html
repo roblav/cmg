@@ -9,7 +9,7 @@
  
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">Child Maintenance</h1>
+      <h1 class="govuk-heading-xl">Socket IO Example</h1>
       <p>
         This kit lets you rapidly create HTML prototypes of GOV.UK services.
       </p>
@@ -31,10 +31,23 @@
         <li><a href="cmg-account-header/">CMG Account Header</a></li>
         <li><a href="payments/">CMG Account Header - Payments</a></li>
         <li><a href="table-sort-pagination/">Table Sort & Pagination</a></li>
-        <li><a href="socketio-example/">Socket IO</a></li>
+        <li><a href="sio-example/">Socket IO</a></li>
 
       </ul>
     </div>
 </div>
+
+{% endblock %}
+
+{% block pageScripts %}
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost');
+  socket.on('news', function (data) {
+    console.log(data);
+    socket.emit('my other event', { my: 'data' });
+  });
+</script>
 
 {% endblock %}

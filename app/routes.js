@@ -106,6 +106,8 @@ router.get('/table-sort-pagination/:page/:sortBy', tableSortHandler)
 
 router.get('/my-payments/', processAtosResponse.processAtosPaymentHandler)
 
-
+router.post('/socketio-example/', function (req, res) {
+  res.render('socketio-example/index')
+})
 
 module.exports = router

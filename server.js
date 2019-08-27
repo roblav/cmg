@@ -41,6 +41,19 @@ try {
 const app = express()
 const documentationApp = express()
 
+var http = require('http');
+var server = http.createServer(app);
+
+var io = require('socket.io').listen(server);
+
+io.on('connection', function (socket) {
+  socket.emit('news', { hello: 'world' });
+  socket.on('my other event', function (data) {
+    console.log(data);
+  });
+});
+
+
 if (useV6) {
   console.log('/app/v6/routes.js detected - using v6 compatibility mode')
   v6App = express()
@@ -342,4 +355,4 @@ app.use(function (err, req, res, next) {
 console.log('\nGOV.UK Prototype Kit v' + releaseVersion)
 console.log('\nNOTICE: the kit is for building prototypes, do not use it for production services.')
 
-module.exports = app
+module.exports = server
