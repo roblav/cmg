@@ -1,0 +1,72 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+ 
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+        <h1 class="govuk-heading-xl">Welcome To Axios - Get Promise</h1>
+
+        <p class="govuk-body">This applications uses Axios. Axios is a Promise-based HTTP client for JavaScript which can be used in your front-end application and in your Node.js backend. </h4>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">GET Request</div>
+        <div class="panel-body">
+          <button class="govuk-button" onclick="performGetRequest1()">Get Message</button>
+          <button class="govuk-button" onclick="clearOutput()">Clear</button>
+          <div class="panel-body" id="getResult1"></div>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+{% endblock %}
+
+{% block pageScripts %}
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  function performGetRequest1() {
+    var resultElement = document.getElementById('getResult1');
+    resultElement.innerHTML = '';
+    
+    axios.get('http://localhost:3000/ajax/get-promise-message')
+      .then(function (response) {
+        resultElement.innerHTML = generateSuccessHTMLOutput(response);
+      })
+      .catch(function (error) {
+        resultElement.innerHTML = generateErrorHTMLOutput(error);
+      });   
+  }
+
+  function generateSuccessHTMLOutput(response) {
+    console.log(response);
+    return  '<h4>Result</h4>' + 
+            '<h5>Status:</h5> ' + 
+            '<pre>' + response.status + ' ' + response.statusText + '</pre>' +
+            '<h5>Headers:</h5>' + 
+            '<pre>' + JSON.stringify(response.headers, null, '\t') + '</pre>' + 
+            '<h5>Data:</h5>' + 
+            '<pre>' + JSON.stringify(response.data, null, '\t') + '</pre>'; 
+  }
+  
+  function generateErrorHTMLOutput(error) {
+    return  '<h4>Result</h4>' + 
+            '<h5>Message:</h5> ' + 
+            '<pre>' + error.message + '</pre>' +
+            '<h5>Status:</h5> ' + 
+            '<pre>' + error.response.status + ' ' + error.response.statusText + '</pre>' +
+            '<h5>Headers:</h5>' + 
+            '<pre>' + JSON.stringify(error.response.headers, null, '\t') + '</pre>' + 
+            '<h5>Data:</h5>' + 
+            '<pre>' + JSON.stringify(error.response.data, null, '\t') + '</pre>'; 
+  }
+</script>
+
+{% endblock %}

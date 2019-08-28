@@ -1,0 +1,117 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+ 
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+        <h1 class="govuk-heading-xl">Welcome To Axios</h1>
+
+        <p class="govuk-body">This applications uses Axios. Axios is a Promise-based HTTP client for JavaScript which can be used in your front-end application and in your Node.js backend. </h4>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">GET Request</div>
+        <div class="panel-body">
+          <button class="govuk-button" onclick="performGetRequest1()">Get Todos</button>
+          <button class="govuk-button" onclick="clearOutput()">Clear</button>
+          <div class="panel-body" id="getResult1"></div>
+        </div>
+      </div>
+
+      
+        <div class="govuk-form-group">
+          <div class="govuk-form-group">
+          <label class="govuk-label" for="address-line-1">
+            GET Request with Paramaters
+          </label>
+            <input type="text" class="govuk-input" id="todoId" placeholder="Todo ID ..."/>
+          </div>
+          <button class="govuk-button" onclick="performGetRequest2()">Get Todos</button>
+          <button class="govuk-button" onclick="clearOutput()">Clear</button>
+          <div class="govuk-form-group" id="getResult2"></div>
+        </div>
+      
+       
+        <div class="panel-body">
+          <form class="form-inline" id="todoInputForm">
+            <div class="govuk-form-group">
+              <label class="govuk-label" for="address-line-1">
+                POST Request
+              </label>
+              <input type="text" class="govuk-input" id="todoTitle" placeholder="Todo Title ...">
+            </div>
+            <button type="submit" class="govuk-button">Send</button>
+          </form><br/>
+          <button class="govuk-button" onclick="clearOutput()">Clear</button>
+          <div class="panel-body" id="postResult"></div>
+        </div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+{% block pageScripts %}
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  function performGetRequest1() {
+  var resultElement = document.getElementById('getResult1');
+  resultElement.innerHTML = '';
+  
+  axios.get('http://jsonplaceholder.typicode.com/todos')
+    .then(function (response) {
+      resultElement.innerHTML = generateSuccessHTMLOutput(response);
+    })
+    .catch(function (error) {
+      resultElement.innerHTML = generateErrorHTMLOutput(error);
+    });   
+  }
+
+  function performGetRequest2() {
+    var resultElement = document.getElementById('getResult2');
+    var todoId = document.getElementById('todoId').value;
+    resultElement.innerHTML = '';
+    
+    axios.get('http://jsonplaceholder.typicode.com/todos', {
+      params: {
+        id: todoId
+      }
+    })
+    .then(function (response) {
+      console.log(response);
+      resultElement.innerHTML = generateSuccessHTMLOutput(response);
+    })
+    .catch(function (error) {
+        resultElement.innerHTML = generateErrorHTMLOutput(error);
+    });
+  }
+
+  function generateSuccessHTMLOutput(response) {
+  console.log(response);
+  return  '<h4>Result</h4>' + 
+          '<h5>Status:</h5> ' + 
+          '<pre>' + response.status + ' ' + response.statusText + '</pre>' +
+          '<h5>Headers:</h5>' + 
+          '<pre>' + JSON.stringify(response.headers, null, '\t') + '</pre>' + 
+          '<h5>Data:</h5>' + 
+          '<pre>' + JSON.stringify(response.data, null, '\t') + '</pre>'; 
+  }
+  function generateErrorHTMLOutput(error) {
+    return  '<h4>Result</h4>' + 
+            '<h5>Message:</h5> ' + 
+            '<pre>' + error.message + '</pre>' +
+            '<h5>Status:</h5> ' + 
+            '<pre>' + error.response.status + ' ' + error.response.statusText + '</pre>' +
+            '<h5>Headers:</h5>' + 
+            '<pre>' + JSON.stringify(error.response.headers, null, '\t') + '</pre>' + 
+            '<h5>Data:</h5>' + 
+            '<pre>' + JSON.stringify(error.response.data, null, '\t') + '</pre>'; 
+  }
+</script>
+
+{% endblock %}

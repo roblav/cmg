@@ -106,8 +106,28 @@ router.get('/table-sort-pagination/:page/:sortBy', tableSortHandler)
 
 router.get('/my-payments/', processAtosResponse.processAtosPaymentHandler)
 
-router.post('/socketio-example/', function (req, res) {
+router.get('/socketio-example/', function (req, res) {
   res.render('socketio-example/index')
+})
+
+router.get('/ajax/', function (req, res) {
+  res.render('ajax/index')
+})
+
+router.get('/ajax/get-promise', function (req, res) {
+  // console.log('Get Promise Example');
+  res.render('ajax/get-promise')
+})
+
+router.get('/ajax/get-promise-message', async function (req, res) {
+  // console.log('Get Promise Example Message');
+  const promise1 = await new Promise((resolve, reject) => {
+    setTimeout(() => {
+        message = {userId: 1, id: 3, title: "fugiat veniam minus", completed: false};
+        resolve(message);
+    }, 2000)
+  })
+  res.json(promise1);
 })
 
 module.exports = router
