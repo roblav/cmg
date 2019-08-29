@@ -14,19 +14,27 @@ function processAtosPaymentHandler(req, res) {
   // const isAtosResultValid = atosValidResponse(atosResult.toString());
   let clientPublicPEM;
   
-  // parseString(xml, (err, result) => {
-  //   cert = result.paymentManualConfirmation.Signature[0].KeyInfo[0].X509Data[0].X509Certificate[0];
-  //   clientPublicPEM = `-----BEGIN CERTIFICATE-----\n${cert}\n-----END CERTIFICATE-----`;
-  //   fs.writeFile("./app/tls/test.pem", clientPublicPEM, function(err) {
-  //     if(err) {
-  //         return console.log(err);
-  //     }
-  //     console.log("The file was saved!");
-  //   });
-  // });
+  function chunkString(str, length) {
+    return str.match(new RegExp('.{1,' + length + '}', 'g'));
+  }
+
+  parseString(xml, (err, result) => {
+    cert = result.paymentManualConfirmation.Signature[0].KeyInfo[0].X509Data[0].X509Certificate[0];
+    const certChunks = chunkString(cert, 64);
+    certString = certChunks.join('\n');
+    clientPublicPEM = `-----BEGIN CERTIFICATE-----\n${certString}\n-----END CERTIFICATE-----`;
+    fs.writeFile("./app/tls/test2.pem", clientPublicPEM, function(err) {
+      if(err) {
+          return console.log(err);
+      }
+      console.log("The file was saved!");
+    });
+  });
+
+  
 
   console.log("Dont CHECK FILE YET!");
-  const isAtosResultValid = atosValidResponse(xml);
+  const isAtosResultValid = atosValidResponse(xml, clientPublicPEM);
 
   if (isAtosResultValid) {
     parseString(xml, (err, result) => {

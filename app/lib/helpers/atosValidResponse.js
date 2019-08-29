@@ -16,12 +16,18 @@
   const signature = select(doc, "/*/*[local-name(.)='Signature' and namespace-uri(.)='http://www.w3.org/2000/09/xmldsig#']")[0]
   const sig = new SignedXml()
 
-  // console.log(clientPublicPEM);
-  // var buf = Buffer.from(clientPublicPEM, 'utf8');
-  // console.log(buf);
+//   console.log(clientPublicPEM.join('\n'));
 
-  // sig.keyInfoProvider = new FileKeyInfo(buf);
-  sig.keyInfoProvider = new FileKeyInfo('./app/tls/client_public.pem');
+  // Create string from array
+
+//   `${cert}\n`
+
+//   var buf = Buffer.from(clientPublicPEM, 'utf8');
+//   console.log(buf);
+
+//   sig.keyInfoProvider = new FileKeyInfo(clientPublicPEM.join('\n'));
+  
+  sig.keyInfoProvider = new FileKeyInfo('./app/tls/test1.pem');
 
   sig.loadSignature(signature)
       
