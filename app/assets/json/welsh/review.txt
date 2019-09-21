@@ -1,0 +1,15 @@
+{
+  "page-title": "Adolygu Newidiadau",
+  "h1": "Manylion Presennol",
+  "h2": "Manylion Newydd",
+  "submit": "Anfon",
+  "cancel-link": "Na, rwyf am newid",
+  "home-link": "Yn ôl i'r manylion",
+  "breadcrumbs": {
+    "change-name": {
+      "navig1text": "Fy manylion personnol",
+      "navig1link": "/my-details-and-circumstances/my-personal-details",
+      "navig2text": "Newid Enw"
+    }
+  }
+  }

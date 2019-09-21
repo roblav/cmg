@@ -1,0 +1,20 @@
+{
+    "title": {
+      "problem-with-service": "Mae problem gyda'r gwasanaeth",
+      "page-not-found": "Tudalen heb ei chanfod",
+      "incomplete-data": "Terfyn amser sesiwn",
+      "error-sending-message": "Gwall wrth anfon neges"
+    },
+    "heading": {
+      "problem-with-service": "Mae problem gyda'r gwasanaeth",
+      "page-not-found": "Tudalen heb ei chanfod",
+      "error-sending-message": "Gwall wrth anfon neges"
+    },
+    "description": {
+      "problem-with-service": "Rhowch gynnig arall arni yn nes ymlaen.",
+      "page-not-found": "Os gwnaethoch deipio'r cyfeiriad, gwiriwch ei fod yn gywir.",
+      "page-not-found-p2": "Os gwnaethoch chi bastio'r cyfeiriad, gwiriwch eich bod wedi copïo'r cyfeiriad cyfan.",
+      "error-sending-message": "Roedd yna broblem wrth anfon y neges, rhowch gynnig arall arni yn nes ymlaen."
+    }
+}
+  

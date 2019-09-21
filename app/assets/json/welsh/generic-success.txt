@@ -1,0 +1,157 @@
+{
+  "success": "Llwyddiant",
+  "page-title-emp": "Llwyddiant",
+  "page-title-client": "Llwyddiant",
+  "heading": "Rydym wedi cael eich cais",
+  "h3": "Beth rydych am ei wneud nawr?",
+  "page-title": "Rydym wedi cael eich cais",
+  "weve-received-your-request": "Rydym wedi cael eich cais",
+  "what-do-you-want-to-do-now": "Beth rydych am ei wneud nawr?",
+  "change-name": {
+    "description": "<p class='govuk-body govuk-!-font-weight-bold'>Diolch am ddweud wrthym am y newid i'ch enw. Byddwn yn cysylltu gyda chi o fewn y 48 awr nesaf i ddweud wrthych pa brawf rydym ei angen a lle i'w anfon. </p><h3 class='govuk-heading-m'>Pan fyddwn yn cael eich dogfennau</h3><p class='govuk-body'>Byddwn yn rhoi gwybod i chi pan fyddwn wedi newid manylion eich enw, gan ddefnyddio eich dull cyswllt dewisol.  Byddwn hefyd yn dychwelyd eich dogfennau atoch i'ch cyfeiriad cartref (neu eich cyfeiriad post os byddwch wedi rhoi un) cyn gynted â phosib.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "change-phone": {
+    "description": "<p class='govuk-body'><strong>Diolch am ddweud wrthym am eich rhifau ffôn newydd.</strong></p><p class='govuk-body'>Gallai gymryd hyd at un diwrnod gwaith i'ch newid ymddangos ar y system.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-contact-details'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "change-home-address": {
+    "description": "<p class='govuk-body'><strong>Diolch am ddweud wrthym am eich cyfeiriad cartref newydd.</strong></p><p class='govuk-body'>Gallai gymryd hyd at un diwrnod gwaith i'ch newid ymddangos ar y system.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-contact-details'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "send-message": {
+    "missing-payments": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Daliadau wedi'u Methu. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan </a>"
+    },
+    "general-query": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni gydag Ymholiad Cyffredinol. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto. </p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "make-a-complaint": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Gwneud cwyn. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "query-about-a-calculation": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Ymholiad am gyfrifiad. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto..</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "about-my-method-of-payment": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Fy null talu. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "responding-to-your-previous-request": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Ymateb i'ch cais blaenorol. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.  .</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "change-to-number-of-nights-you-have-the-children": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am newidiadau i'r nifer o nosweithiau y cewch y plant/plentyn. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "new-change-to-income": {
+      "description": "<p class='govuk-body'><strong>.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda chi am Newid newydd i Incwm. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto. </p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "new-change-to-people-in-your-household": {
+      "description": "<p class='govuk-body'><stroDiolch am gysylltu gyda ni>.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Newid Newydd i'r bobl yn eich Cartref. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "payment-schedule-query": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'> Diolch am gysylltu gyda ni am ymholiad Amserlen Talu. Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "other-new-change": {
+      "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Diolch am gysylltu gyda ni am Newid Newydd Arall.  Byddwn fel arfer yn cysylltu yn ôl gyda chi o fewn 7 diwrnod. Nid oes angen i chi gysylltu gyda ni eto.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'> Yn ôl i fy hafan</a>"
+    },
+    "emp-query": {
+      "description": "<p class='govuk-body'><strong>Diolch, rydym wedi cael eich neges a byddwn yn dechrau edrych i mewn iddo. </strong></p><p class='govuk-body'>Mae fel arfer yn cymryd llai na 48 awr i ymateb ond gall hyn amrywio yn dibynu ar ba mor gymleth yw'ch cwestiwn. Bydd eich neges yn ymddangos yn eich rhestr o negeseuon wedi'u hanfon yn yr ychydig oriau nesaf.</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+    },
+    "description": "<p class='govuk-body'><strong>Diolch am gysylltu gyda ni.</strong></p><p class='govuk-body'>Byddwn yn cysylltu gyda chi gydag ateb cyn gynted ag y gallwn, gan ddefnyddio eich dull cyswllt dewisol. Bydd manylion eich neges yn ymddangos yn eich hanes cyswllt yn yr ychydig oriau nesaf.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-messages'>Ewch i 'Fy negeseuon'</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan </a>"
+  },
+  "change-contact-preferences": {
+    "description": "<p class='govuk-body'>Diolch am ddweud wrthym am eich dewisiadau cyswllt newydd. Mae ein cofnodion nawr wedi cael eu diweddaru ac o hyn allan, byddwn yn cysylltu gyda chi gan ddefnyddio'r dull rydych wedi ei ddewis. </p> <p class='govuk-body'>Cofiwch y byddwn weithiau yn gorfod cysylltu gyda chi mewn ffordd arall, ond ar gyfer popeth arall byddwn yn defnyddio'r dull a ddewiswch yma.</p> <p class='govuk-body govuk-!-font-weight-bold'>Os ydych wedi gofyn i ni stopio anfon eich llythyrau drwy'r post, sicrhewch fod eich cyfeiriad ebost gennym. Gallwch ychwanegu neu ddiweddaru eich cyfeiriad ebost yn yr  <a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-contact-details/'>'adran'</a> Fy manylion ac amgylchiadau.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-company/view-company-details'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "add-new-job": {
+    "description": "<p class='govuk-body'><strong>Diolch am eich cais.</strong></p><p class='govuk-body'>Os oes gennych ddogfen i gefnogi'ch newid - er enghraifft llun neu gopi o'ch slip cyflog - gallwch ei anfon atom yn syth nawr. Gall hyn ein helpu i wirio'ch newid yn gyflymach.</p><a class='govuk-button' href='${mountUrl}my-messages/upload-documents'>Lanlwytho dogfen</a><p class='govuk-body'>Bydd y newidiadau'n ymddangos ar y porth hunanwasanaeth cyn gynted ag y byddwn wedi'u gwirio sy'n gallu cymryd hyd at 14 diwrnod. Byddwn yn rhoi gwybod i chi pan fydd hyn wedi ei wneud gan ddefnyddio eich dull cyswllt dewisol</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-employment-details'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "left-job": {
+    "description": "<p class='govuk-body'><strong>Diolch am eich cais.</strong></p><p class='govuk-body'>Os oes gennych ddogfen i gefnogi'ch newid - er enghraifft llun neu gopi o'ch slip cyflog - gallwch ei anfon atom yn syth yn awr. Gall hyn ein helpu i wirio'ch newid yn gyflymach.</p><a class='govuk-button' href='${mountUrl}my-messages/upload-documents'>Lanlwytho dogfen</a><p class='govuk-body'>Bydd y newidiadau'n ymddangos ar y porth hunanwasanaeth cyn gynted ag y byddwn wedi'u gwirio sy'n gallu cymryd hyd at 14 diwrnod. Byddwn yn rhoi gwybod i chi pan fydd hyn wedi ei wneud gan ddefnyddio eich dull cyswllt dewisol.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-employment-details/'>Newid mwy o fanylion </a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "change-direct-payment": {
+    "description": "<p class='govuk-body'>Byddwn yn gweithio gyda'ch banc i sefydlu'r taliad newydd yma.</p><p class='govuk-body'>Byddwn yn rhoi gwybod i chi cyn gynted ag y byddwn wedi diweddaru eich manylion, gan ddefnyddio eich dull cyswllt dewisol.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "change-pin": {
+    "description": "<p class='govuk-body'><strong>Rydych wedi newid eich PIN yn llwyddiannus.</strong></p><p class='govuk-body'>Cofiwch gadw'r rhif yn ddiogel a pheidiwch â'i ysgrifennu i lawr na'i rannu gydag unrhyw un.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances'>Newid mwy o fanylion/a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "change-new-pin": {
+    "description": "<p class='govuk-body'><strong>Rydych wedi newid eich PIN yn llwyddiannus</strong></p><p class='govuk-body'>Cofiwch gadw eich PIN yn saff a diogel. Peidiwch â'i ysgrifennu i lawr na'i rannu gydag unrhyw un.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}client-login'>Mewngofnodi</a>"
+  },
+  "change-company-contact-preferences" : {
+    "description": "Rydym wedi diweddaru eich dewisiadau cyswllt a byddwn yn dechrau eu defnyddio yn syth.",
+    "p-1": "<a class='govuk-link' href=${mountUrl}my-company/view-company-details>Newid mwy o fanylion cwmni<a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "delete-contact": {
+    "description": "<p class='govuk-body'><strong>Diolch am ddiweddaru eich gwybodaeth.</strong></p><p class='govuk-body'>Rydym wedi dileu manylion cyswllt eich cwmni a byddwn yn diweddaru ein cofnodion yn syth.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-company-details/manage-company-contacts/'>Newid mwy o fanylion cwmni</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "set-main-contact": {
+    "description": "<p class='govuk-body'><strong>Diolch am ddiweddaru'r wybodaeth.</strong></p><p class='govuk-body'>Rydym wedi sefydlu'r person yma fel prif gyswllt eich cwmni a byddwn yn diweddaru ein cofnodion yn syth.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-company-details/manage-company-contacts/'>Newid mwy o fanylion cwmni</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "update-income-details": {
+    "description": "<p class='govuk-body'><strong>Diolch am eich cais.</strong></p><p class='govuk-body'>Os oes gennych ddogfen i gefnogi'ch newid - er enghraifft llun neu gopi o'ch slip cyflog - gallwch ei anfon atom yn syth yn awr. Gall hyn ein helpu i wirio'ch newid yn gyflymach</p><a class='govuk-button' href='${mountUrl}my-messages/upload-documents'>Lanlwytho dogfen</a><p class='govuk-body'>Bydd y newidiadau'n ymddangos ar y porth hunanwasanaeth cyn gynted ag y byddwn wedi'u gwirio sy'n gallu cymryd hyd at 14 diwrnod. Byddwn yn rhoi gwybod i chi pan fydd hyn wedi ei wneud gan ddefnyddio eich dull cyswllt dewisol.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-employment-details/'>Newid manylion eraill</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "update-employer-details": {
+    "description": "<p class='govuk-body'><strong>Diolch am eich cais.</strong></p><p class='govuk-body'>Os oes gennych ddogfen i gefnogi'ch newid - er enghraifft llun neu gopi o'ch slip cyflog - gallwch ei anfon atom yn syth yn awr. Gall hyn ein helpu i wirio'ch newid yn gyflymach</p><a class='govuk-button' href='${mountUrl}my-messages/upload-documents'>Lanlwytho dogfen</a><p class='govuk-body'>Bydd y newidiadau'n ymddangos ar y porth hunanwasanaeth cyn gynted ag y byddwn wedi'u gwirio sy'n gallu cymryd hyd at 14 diwrnod. Byddwn yn rhoi gwybod i chi pan fydd hyn wedi ei wneud gan ddefnyddio eich dull cyswllt dewisol.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-details-and-circumstances/my-employment-details/'>Newid mwy o fanylion</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  },
+  "add-new-employer-contact": {
+    "description": "<p class='govuk-body'><strong>Diolch am eich cais.</strong></p><p class='govuk-body'>Rydym wedi ychwanegu manylion y person cyswllt eich cwmni newydd a byddwn yn dechrau eu defnyddio yn syth.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-company/view-company-details'>Newid mwy o fanylion cwmni</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan </a>"
+  },
+  "edit-employer-contact": {
+    "description": "<p class='govuk-body'><strong>Rydym wedi cadw eich newidiadau.</strong></p><p class='govuk-body'><b>Diolch am ddiweddaru eich manylion.</b></p><p class='govuk-body'>Rydym wedi newid manylion cyswllt eich cwmni a byddwn yn dechrau eu defnyddio yn syth.</p>",
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-company/view-company-details'>Newid mwy o fanylion cwmni</a>"
+  },
+  "make-a-payment": {
+    "p-1": "<a class='govuk-link' href='${mountUrl}my-payments'>Yn ôl i Fy nhaliadau</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>"
+  }
+}

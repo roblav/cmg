@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Croeso",
+  "messages-and-notifications": {
+    "title": "Negeseuon a hysbysiadau",
+    "you-have-messages": "Mae gennych ${amount} neges newydd",
+    "read-your-messages": "Darllenwch eich negeseuon",
+    "fees-and-charges": "Ffioedd a thaliadau",
+    "calc-and-collection-desc": "Oherwydd eich bod yn defnyddio'r gwasanaeth Casglu a Thalu, bydd ffi casglu yn cael ei ychwanegu at bob un o'ch taliadau cynhaliaeth plant.",
+    "maintenance-direct-desc": "Os na chaiff taliadau Talu Uniongyrchol eu gwneud, bydd eich achos yn newid i Casglu a Thalu a caiff ffi casglu ei ychwanegu i bob un o'ch taliadau.",
+    "fees-and-charges-desc": "<p class='govuk-body'>Mwy am  <a href='${mountUrl}#'>ffioedd a thaliadau</a> now.</p>"
+  },
+  "view-full-online-statement": "Gallwch weld eich cyfriflen lawn o daliadau ar lein drwy glicio ar 'Gweld cyfriflen ar lein'.",
+  "view-online-statement": "Gweld cyfriflen ar lein",
+  "view-expected-payment": "Gweld manylion taliadau diwgwyliedig",
+  "payment-due-date-note": "<p class='govuk-body'><b>† Dyddiad dyledus taliad</b> yw'r dyddiad sy'n ymddangos ar gynllun talu y rhiant sy'n talu cynhaliaeth. Os ydych yn defnyddio Talu Uniongyrchol, dim ond canllaw yn hyn. Bydd rhaid i chi a'r rhiant arall benderfynnu ar ddyddiad talu.</p>",
+  "amount-due-note": "<p class='govuk-body'><b># Swm sy'n ddyledus</b> yw'r gynhaliaeth plant reolaidd y gallwch ddisgwyl ei gael, fel a ddangosir yn eich cyfrifiad diwethaf .</p>",
+  "total-amount-note": "<p class='govuk-body'><b>^ Cyfanswm dal yn ddyledus</b> Os yw'r rhiant arall wedi methu taliadau neu heb dalu yn llawn, bydd y swm sy'n dal yn ddyledus ganddynt yn ymddangos yma.</p>",
+  "no-payment-details-available": "Dim manylion talu ar gael.",
+  "pwc": {
+    "h2": "Taliadau yr wyf i'w derbyn",
+    "desc": "<p class='govuk-body'><b>Mae'r tabl yma yn dangos beth gallwch ddisgwyl os bydd y rhiant arall yn talu yn llawn ac ar amser i ni, yn unol �'u Cynllun Talu.</b></p><p class='govuk-body'>Caniatewch dri diwrnod gwaith o'r dyddiadau casglu i'r taliadau gyrraedd eich cyfrif. Mae hyn oherwydd yr amser y mae'n ei gymryd i fanciau basio arian rhwng cyfrifon. Os yw dyddiad talu wedi mynd heibio yn ddiweddar, byddwn yn dangos y dyddiad disgwyliedig nesaf, hyd yn oed os nad ydych wedi derbyn y taliad olaf eto.</p>",
+    "table": {
+      "for-children": "Plant",
+      "payment-due-date": "Dyddiad dyledus taliad †",
+      "amount-due": "Swm dyledus # (£)",
+      "total-still-owed": "cyfanswm sydd dal yn ddyledus ^ (£)",
+      "direct-pay": "Talu Uniongyrchol - dyddiad cytuno uniongyrchol",
+      "plus-days": "a 2-5 diwrnod gwaith"
+    }
+  },
+  "nrp": {
+    "past-payments-desc": "<p class='govuk-body'><b>Dyma grynodeb o'r tri taliad mwyaf diweddar a wnaethoch. dim ond taliadau a wnaed yn ystod y 12 12 mis diwethaf a ddangosir.</b></p>",
+    "upcoming-payments-desc": "<p class='govuk-body'><b>Dyma grynodeb o'r tri taliad nesaf sy'n ddyledus i chi eu gwneud.</b></p><p class='govuk-body'>Rydym hefyd wedi cynnwys gwybodaeth am unrhyw daliadau sy'n ddyledus o'ch Cynllun Talu diweddaraf, a cyfanswm y taliadau dyledus o'ch achos(ion). Os oes gennych unrhyw daliadau sy'n ddyledus, gallwch eu talu yma hefyd. </p><p class='govuk-body'>I weld eich cynllun talu llawn, cliciwch ar y botwm 'Gweld cynllun talu'.</p>",
+    "past-h2": "Taliadau diweddar rwyf wedi eu gwneud",
+    "upcoming-h2": "Taliadau nesaf sy'n ddyledus gennyf i'w gwneud",
+    "view-payment-plan": "Gweld Cynllun Talu",
+    "make-a-payment": "Gwneud taliad",
+    "table": {
+      "payment-date": "Dyddiad taliad",
+      "description": "Disgrifiad",
+      "amount-paid": "Swm a dalwyd",
+      "payment-method": "Dull talu",
+      "service-type": "Math gwasanaeth",
+      "child-name": "Enw plentyn",
+      "amount": "Swm"
+    },
+    "up-to-date": "Rydych wedi talu yn unol a'ch Cynllun Talu cyfredol. Diolch.",
+    "total-outstanding-cases": "Y cyfanswm sy'n ddyledus ar eich achos(ion) yw £",
+    "paid-more-on-plan": "Rydych wedi talu £${closingBalance} yn fwy nag y cytunoch i'w dalu ar eich Cynllun Talu cyfredol. Diolch.",
+    "cant-display-balance": "Ni allwn ddangos y balans ar eich achos(ion) ar y funud.",
+    "up-to-date-with-plan": "Rydych wedi talu yn unol a'ch Cynllun Talu cyfredol."
+  },
+  "emp": {
+    "recent-changes": {
+      "title": "Newidiadau diweddar i'ch cynllun",
+      "no-changes": "Nid oed newidiadau diweddar i'ch cynllun.",
+      "ders": "Newid DER",
+      "deos": "Newid DEO",
+      "payment-received": "Taliad wedi'i dderbyn: £${displayValue} ar ${displayDate}",
+      "view-details": "Gweld manylion"
+    },
+    "recent-messages": {
+      "title": "Negeseuon diweddaraf",
+      "no-messages": "Nid oes gennych negeseuon diweddar i'w dangos.",
+      "sent-on": "${displayText} anfonwyd ar ${displayDate}",
+      "view-all": "gweld bob neges"
+    },
+    "i-want-to": {
+      "title": "Rwyf am",
+      "change-payment-schedule": "Newid cynllun talu",
+      "upload-schedule": "Lanlwytho fy nghynllun talu fy hyn",
+      "make-payment": "Gwneud taliad",
+      "report-leaver": "Hysbysu am rhywun sy'n gadael"
+    },
+    "schedule": {
+      "title": "cynllun talu ar gyfer",
+      "schedule": "cynllun",
+      "due-before": "Yn ddyledus cyn ${displayDueDate}, mewn ${daysRemaining} diwrnod.",
+      "desc-der": "Dyma eich symiau misol dyledus. Os byddwch angen newid unrhyw beth neu ychwanegu gweithiwr newydd gyda DER gan yr Asiantaeth Cynnal Plant, gallwch unai ei adolygu ar lein neu lanlwytho eich fersiwn eich hyn.",
+      "desc-deo": "Dyma eich symiau misol dyledus. Os byddwch angen newid unrhyw beth neu ychwanegu gweithiwr newydd gyda DEO gan yr Asiantaeth Cynnal Plant, gallwch unai ei adolygu ar lein neu lanlwytho eich fersiwn eich hyn.",
+      "desc-large-org": "Mae gennych unai 250 neu fwy o DEO neu ni allwn adnabod faint sydd gennych ar y funud. Mae hyn yn golygu na allwch olygu eich cynllun talu ar lein. Dylech greu cynllun talu gan ddefnyddio meddalwedd eich cyflogres ac yna ei lanlwytho yn lle.",
+      "table": {
+        "csa": "ACP?",
+        "first-name": "Enw cyntaf",
+        "surname": "Cyfenw",
+        "ni-number": "Rhif Yswiriant Gwladol",
+        "ref-number": "Rhif cyfeirnod gweithiwr",
+        "amount-due": "Swm misol dyledus (£)",
+        "amount-paid": "Cyfanswm a dalwyd (£)",
+        "employees-count": "Gweithiwr/gweithwyr 1 -",
+        "of": "o",
+        "no-schedules": "Dim cynlluniau."
+      },
+      "submit-change": "Anfon cynllun - gyda newid",
+      "submit-no-change": "Anfon Cynllun - dim newid",
+      "upload-own": "Lanlwytho fy nghynllun fy hyn"
+    }
+  },
+  "heading": "Grwp Cynhaliaeth Plant",
+  
+  "payments": {
+    "heading": "Fy nhaliaedau",
+    "description": "Manylion sydyn am y dudalen fy nhaliadau."
+  },
+  "messages": {
+    "heading": "Fy negeseuon",
+    "description": "Manylion sydyn am y dudalen fy negeseuon."
+  },
+  "case-details": {
+    "heading": "Fy manylion achos",
+    "description": "Manylion sydyn am y dudalen fy manylionn achos."
+  },
+  "my-details": {
+    "heading": "Fy manylion ac amgylchiadau",
+    "description": "Manylion sydyn am y dudalen fy manylion ac amgylchiadau."
+  },
+  "schedules": {
+    "heading": "Fy nghynlluniau",
+    "description": "Manylion sydyn am y dudalen fy nghynlluniau."
+  },
+  "company": {
+    "heading": "Fy manylion cwmni",
+    "description": "Manylion sydyn am y dudalen fy manylion cwmni."
+  },
+  "help":{
+    "heading": "Angen help?"
+  },
+  "btn": "Dechrau"
+}

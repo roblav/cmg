@@ -1,0 +1,159 @@
+{
+  "common": {
+    "page-title": "Manylion fy nghwmni",
+    "h1": "Fy nghwmni",
+    "company-name": "Enw'r cwmni",
+    "page-desc": "Gwnewch yn si?r bod holl fanylion eich cwmni a manylion eich asiant yn gyfoes. Os oes gan eich cwmni unrhyw newidiadau, gallwch ddweud wrthym amdanynt yma.",
+    "page-desc-bold": "Gallwch weld enghraifft o hyn trwy wylio ein fideos 'Sut i' sydd wedi i’w gweld ar sianel YouTube DWP."
+  },
+  "my-company-details": {
+    "caption": "Manylion fy nghwmni",
+    "desc": "Defnyddiwch yr adran yma i: <ul class='govuk-list govuk-list--bullet'><li>Gwiriwch enw a chyfeiriad eich cwmni</li><li>Gwiriwch eich cyfeiriad post a'ch manylion cyswllt</li><li>Newid eich dewisiadau cyswllt</li>",
+    "no-details-desc": "Nid oes gennych unrhyw fanylion cwmni ar gael ar hyn o bryd.",
+    "add-new-contact": {
+      "is-this-correct": "A yw hyn yn gywir?",
+      "confirm-desc": "Ailwiriwch fanylion cyswllt newydd eich cwmni.",
+      "confirm-direction": "Unwaith y byddwch wedi gwirio bod y manylion yn gywir, cliciwch ar 'Derbyn ac anfon' i gadarnhau'r newidiadau.",
+      "h1-confirm": "Cadarnhau cyswllt newydd",
+      "form": {
+        "set-as-main-contact": "Gosod fel prif gyswllt"
+      },
+      "edit-details": "Golygu manylion"
+    },
+    "delete-company-contact":{
+      "page-heading":"Dileu cyswllt y cwmni",
+      "delete-company-contact-p1-desc":"Ydych chi'n si?r eich bod am ddileu'r cyswllt yma ?",
+      "delete-company-contact-p2-desc":"Ailwiriwch os ydych chi am gael gwared â'r cyswllt yma. Os ydych chi'n hapus i ddileu'r cyswllt, cliciwch 'Dileu'"
+    },
+    "set-main-company-contact":{
+      "page-heading":"Gosod fel prif gyswllt cwmni",
+      "set-main-company-contact-p1-desc":"Ydych chi'n si?r eich bod chi am i'r person yma fod yn brif gyswllt i'ch cwmni ?",
+      "set-main-company-contact-p2-desc":"Ailwiriwch eich bod am eu gosod fel eich prif gyswllt. Os ydych chi'n hapus i'w gosod fel y prif gyswllt, cliciwch 'Anfon'"
+    },
+    "edit-contact": {
+      "h1": "Newid manylion cyswllt cwmni",
+      "p1": "Os oes unrhyw un o gysylltiadau eich cwmni wedi newid eu manylion gallwch eu diweddaru yma. Gallwch hefyd newid y person sy'n brif bwynt cyswllt rhwng eich cwmni a ni.",
+      "contacts-current-details": "Manylion cyfredol eich cyswllt ",
+      "new-details-title": "Manylion newydd eich cyswllt",
+      "h1-confirm": "Cadarnhewch fanylion y cyswllt yma",
+      "p1-confirm": "Ailwiriwch fanylion newydd eich cyswllt. Ar ôl i chi wirio bod y manylion yn gywir, cliciwch 'Anfon' i gadarnhau'r newidiadau."
+    },
+    "manage-company-contacts" : {
+      "page-heading": "Cysylltiadau yn fy nghwmni",
+      "p1": "Dyma'r cysylltiadau sydd gennym ar gyfer eich cwmni. ",
+      "p2": "Rydym wedi cynnwys y prif gyswllt rydym yn ei ddefnyddio yn eich cwmni yn ogystal ag unrhyw gysylltiadau eraill rydych chi wedi dweud wrthym amdanynt.",
+      "p3": "Os oes unrhyw un ohonynt yn anghywir neu os ydych am ddileu neu ychwanegu cyswllt, gallwch wneud y newidiadau yma.",
+      "delete-link": "Dileu",
+      "set-as-main-link": "Gosod fel prif gyswllt",
+      "add-contact": "Ychwanegu cyswllt newydd",
+      "add-contact-title": "Ychwanegu cyswllt cwmni newydd",
+      "add-contact-desc": "Gall eich cwmni gael cymaint o gysylltiadau ag y dymunwch, ond dim ond un prif gyswllt. Ychwanegwch gyswllt newydd i'ch cwmni yma.",
+      "main-contact-heading": "Prif gyswllt",
+      "main-contact-desc": "Y person yma yw'r prif bwynt cyswllt rydym yn ei ddefnyddio yn eich cwmni. Byddant yn derbyn yr holl ohebiaeth gennym ni.",
+      "main-contact-name": "Enw prif gyswllt y cwmni",
+      "other-contacts": "Cysylltiadau eraill",
+      "other-contact-name": "Enw cyswllt arall y cwmni",
+      "main-contact-role": "Swyddogaeth",
+      "main-contact-work-phone": "Rhif ffôn gwaith",
+      "main-contact-mobile-phone": "Rhif ffôn symudol",
+      "add-new-contact": "Ychwanegu cyswllt cwmni newydd",
+      "add-contact-heading": "Ychwanegu cyswllt cwmni newydd",
+      "add-contact-p1": "Gall eich cwmni gael amryw o bobol fel pwyntiau cyswllt gyda ni, ond mae angen i ni gael rhywun wedi ei ddynodi fel prif gyswllt eich busnes.",
+      "add-contact-p2": "Ychwanegwch fanylion cyswllt newydd eich cwmni. Cofiwch ddweud wrthym ai nhw yw'r prif gyswllt ac yna cliciwch 'Nesaf'.",
+      "add-contact-name-title": "Teitl",
+      "add-contact-name-title-hint": "Dewiswch deitl eich cyswllt o'r rhestr.",
+      "add-contact-first-name": "Enw cyntaf",
+      "add-contact-first-name-hint": "Rhowch enw cyntaf eich cyswllt yn llawn. Peidiwch â defnyddio unrhyw atalnodi oni bai ei fod yn rhan o'r enw.",
+      "add-contact-lastName": "Cyfenw",
+      "add-contact-lastName-hint": "Rhowch gyfenw eich cyswllt yn llawn. Peidiwch â defnyddio unrhyw atalnodi oni bai ei fod yn rhan o'r enw.",
+      "add-contact-role": "Swyddogaeth",
+      "add-contact-role-hint": Dywedwch wrthym pa swyddogaeth sydd gan y cyswllt yma wrth ddelio gyda ni. Er enghraifft, os ydyn nhw'n talu cyflogau yn eich cwmni, dewiswch 'Cyflogres'.",
+      "add-contact-enter-one-number": "Rhowch o leiaf un rhif",
+      "add-contact-work-phone": "Rhif ffôn gwaith",
+      "add-contact-work-phone-hint": "Ychwanegwch y rhif ffôn gwaith yma. Os yw'n rhif DU, dewiswch 'DU' ac ychwanegwch y rhif llawn gan gynnwys cod ardal, heb unrhyw flychau ee 01617150123 Os nad yw'n rhif DU, dewiswch 'Rhyngwladol' ac ychwanegwch y rhif llawn gan ddechrau gyda'r cod gwlad. Peidiwch ag ychwanegu '00' neu '+' ar y dechrau ee 919912345678",
+      "add-contact-extn": "Extn.",
+      "add-contact-ext": "Ext.",
+      "add-contact-extn-uk-line-only": "Extn. (linell daear y DU yn unig)",
+      "add-contact-ext-hint": "Gall hyn fod yn uchafswm o 6 digid, gyda dim ond nodau 0-9 a dim blychau. Os ydych chi'n ychwanegu rhif estyniad, rhaid i chi ychwanegu rhif ffôn llinell daear y DU hefyd.",
+      "add-contact-mobile": "Rhif ffôn symudol",
+      "add-contact-mobile-hint": "Ar gyfer galwadau a rhybuddion testun. Os yw'n rhif DU, dewiswch 'DU' a defnyddiwch y rhif llawn, heb leoedd. ee 07700900123 Os nad yw'n rhif DU, dewiswch 'Rhyngwladol' ac ychwanegwch y rhif llawn gan ddechrau gyda'r cod gwlad. Peidiwch ag ychwanegu '00' neu '+' ar y dechrau ee 919912345678 <br> Rhybuddion testun <br> Byddwn yn eich optio i mewn  yn awtomatig i dderbyn rhybuddion testun gennym ni. Os nad ydych am dderbyn rhybuddion testun, gallwch optio allan yn adran 'Dewisiadau cyswllt' y wefan yma.",
+      "add-contact-flag": "Ticiwch y bocs yma os ydych am i ni wneud y person yma yn brif gyswllt.",
+      "add-contact-flag-hint": "Ticiwch y bocs yma os mai’r person yma rydych am iddynt fod yn brif bwynt cyswllt yn eich sefydliad gyda ni ",
+      "errors": {
+        "title":{
+          "required": "Dewiswch deitl dilys"
+        },
+        "phoneNumbers": {
+          "required": "Rhowch o leiaf un rhif ffôn"
+        },
+        "firstName": {
+          "required": "Rhowch enw cyntaf"
+        },
+        "lastName": {
+          "required": "Rhowch gyfenw"
+        },
+        "workPhoneNumber": {
+          "required": "Rhowch rif ffôn gwaith dilys",
+          "uk.incorrect-format": "Rhowch rif ffôn gwaith dilys y DU",
+          "international.incorrect-format": "Rhowch rif ffôn gwaith rhyngwladol dilys"
+        },
+        "cellularPhoneNumber": {
+          "required": "Rhowch rif ffôn symudol dilys",
+          "uk.incorrect-format": "Rhowch rif ffôn symudol dilys y DU",
+          "international.incorrect-format": "Rhowch rif ffôn symudol rhyngwladol dilys"
+        },
+        "workphoneNumberLocation": {
+          "required": "Dewiswch leoliad ar gyfer eich rhif ffôn gwaith"
+        },
+        "mobilephoneNumberLocation": {
+          "required": "Dewiswch leoliad ar gyfer eich rhif ffôn symudol"
+        },
+        "all": {
+          "no-change": "Mae'r manylion cyswllt newydd rydych wedi'u dewis yr un peth â'r manylion cyswllt cyfredol. Rhowch fanylion cyswllt newydd, neu cliciwch 'Canslo' os nad oes newid."
+        },
+        "workPhoneNumberExtension": {
+          "incorrect-format": "Rhowch rif estyniad dilys"
+        }
+      },
+      "delete-company-contact":{
+        "page-heading":"Dileu cyswllt cwmni",
+        "delete-company-contact-p1-desc":"Ydych chi'n si?r eich bod chi am ddileu'r cyswllt yma ?",
+        "delete-company-contact-p2-desc":"Ailwiriwch os ydych chi am gael gwared â'r cyswllt yma. Os ydych chi'n hapus i ddileu'r cyswllt, cliciwch 'Dileu'"
+      },
+      "set-main-company-contact":{
+        "page-heading":"Gosod fel prif gyswllt cwmni",
+        "set-main-company-contact-p1-desc":"Ydych chi'n si?r eich bod chi am i'r person yma fod yn brif gyswllt i'ch cwmni ?",
+        "set-main-company-contact-p2-desc":"Ailwiriwch eich bod am eu gosod fel eich prif gyswllt. Os ydych chi'n hapus i'w gosod fel y prif gyswllt, cliciwch 'Anfon'"
+      }  
+    }
+  },
+  "view-company-details": {
+    "h1": "Manylion fy nghwmni",
+    "desc": "<p class='govuk-body'>Mae'n bwysig bod gennym eich manylion i gyd a bod nhw'n gywir. Gallai unrhyw fanylion anghywir neu wedi eu methu oedi negeseuon pwysig gennym ni. </p> <p class = 'govuk-body'> Mae'r manylion sydd gennym ar gyfer eich cwmni i'w gweld isod. Os oes unrhyw un ohonynt yn anghywir neu wedi eu methu, gallwch eu diweddaru yma</p>",
+    "company-contact-details": "Manylion cyswllt y cwmni",
+    "addresses": {
+      "company-name-and-address": "Enw a chyfeiriad y cwmni",
+      "postal-desc": "Ar gyfer unrhyw bost sydd angen i ni ei anfon atoch",
+      "manage": "Rheoli fy nghyfeiriadau",
+      "employer-ref-number": "Rhif Cyfeirnod Cyflogwr",
+      "hmrc-latest": "<p class='govuk-body govuk-!-font-weight-bold'>Dyma'r data diweddaraf gan<span style='text-decoration-line: underline;text-decoration-style: dotted;' title='Her Majesty&#39;s Revenue and Customs'>HMRC</span>.</p>"
+    },
+    "contacts": {
+      "name": "Enw'r prif gyswllt",
+      "role": "Rôl",
+      "work-phone": "Rhif ffôn gwaith",
+      "cellular-phone": "Rhif ffôn symudol",
+      "manage": "Rheoli fy nghysylltiadau"
+    },
+    "contact-prefs": {
+      "title": "Dewisiadau cyswllt",
+      "preferred-contact-method": "Mae'n well gennych i ni gysylltu gyda chi drwy:",
+      "email-notifications": "Byddwn yn anfon hysbysiadau e-bost at:",
+      "change-prefs": "Newid dewisiadau"
+    }
+  },
+  "my-agent-details": {
+    "caption": "Manylion fy asiant",
+    "desc": "Rydym yn creu gwefan ar gyfer canolfannau cyflogres <a href='${mountUrl}#' class='govuk-link'>cysylltwch gyda ni  </a> os ydych chi am ddefnyddio asiant yn y cyfamser. "
+  }
+}

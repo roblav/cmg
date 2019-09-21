@@ -1,0 +1,140 @@
+{
+  "common": {
+    "account-name": "Enw deiliad cyfrif",
+    "sort-code": "Cod didoli",
+    "account-number": "Rhif y cyfrif",
+    "payment-due-date": "Dyddiad mae’r taliad yn daladwy",
+    "change-this-direct-payment": "Newid y Taliad Uniongyrchol yma",
+    "change-this-direct-debit": "Newid y Debyd Uniongyrchol yma",
+    "roll-no": "Rhif rôl Cymdeithas Adeiladu (os yw’n gymwys):",
+    "of-each-month": "o bob mis",
+    "table-headings": {
+      "direct-payment": "Manylion Fy Nhaliadau Uniongyrchol",
+      "direct-debit": "Manylion Fy Nebyd Uniongyrchol"
+    },
+    "html": {
+      "bhoca-desc": "<p class='govuk-body'><b>Mae gennych y dulliau talu canlynol wedi eu sefydlu ar gyfer eich achos(ion) Casglu a Thalu: BHOCA</b></p><p class='govuk-body'>Ni allwch sefydlu Debyd Uniongyrchol ar-lein oherwydd hyn. </p><p class='govuk-body'>Gallwch <a href='/contact-us-client'>cysylltu gyda ni</a> rhag ofn eich bod dal angen sefydlu Debyd Uniongyrchol neu newid unrhyw ddull talu presennol.</p>",
+      "direct-payment-bhoca-desc": "<p class='govuk-body'><b> Mae gennych y dulliau talu canlynol wedi eu sefydlu ar gyfer eich achos(ion) Casglu a Thalu, Talu Uniongyrchol, BHOCA</b></p><p class='govuk-body'> Ni allwch sefydlu Debyd Uniongyrchol ar-lein oherwydd hyn.</p><p class='govuk-body'>Gallwch <a href='/contact-us-client'> cysylltu gyda ni</a> rhag ofn eich bod dal angen sefydlu Debyd Uniongyrchol neu newid unrhyw ddull talu presennol.</p>",
+      "standing-order-desc": "<p class='govuk-body'><b> Mae gennych y dulliau talu canlynol wedi eu sefydlu ar gyfer eich achos(ion) Casglu a Thalu: Archeb Sefydlog</b></p><p class='govuk-body'> Ni allwch sefydlu Debyd Uniongyrchol ar-lein oherwydd hyn.</p><p class='govuk-body'>Gallwch <a href='/contact-us-client'>cysylltu gyda ni</a> rhag ofn eich bod dal angen sefydlu Debyd Uniongyrchol neu newid unrhyw ddull talu presennol.</p>"
+    }
+  },
+  "receiving-parent": {
+    "h1": "Fy manylion banc neu gymdeithas adeiladu ar gyfer taliadau rwyf yn eu cael",
+    "breadcrumb": " Fy manylion banc ar gyfer taliadau rwyf yn eu cael",
+    "setup-direct-payments": "Sefydlu taliadau yn uniongyrchol i’ch cyfrif",
+    "setup-direct-desc": "Gallwn dalu eich cynhaliaeth plant yn uniongyrchol i’ch cyfrif banc neu gymdeithas adeiladu. Gelwir hyn yn daliad uniongyrchol. Pam ddim sefydlu taliad uniongyrchol ar-lein nawr? ",
+    "setup-direct-link": "Sefydlu Taliad",
+    "child-direct-payments": "Taliadau uniongyrchol i fy nghyfrif – ar gyfer",
+    "view-payment-methods": "Gweld dulliau talu",
+    "html": {
+      "intro-direct-pay": "\r\n<p class='govuk-body'>Sefydlu a newid eich taliadau electronig yma.</p>\r\n<p class='govuk-body'>Gan eich bod yn defnyddio’r gwasanaeth Casglu a Thalu i gael cynhaliaeth plant, byddwn yn talu’r gynhaliaeth plant rydym yn ei gasglu yn uniongyrchol i’ch cyfrif banc neu gymdeithas adeiladu. Gelwir hyn yn daliad uniongyrchol.</p>\r\n<p class='govuk-body'><b>Fodd bynnag, bydd y swm fyddwch yn ei gael yn dal i gael ei leihau gan ein bod yn codi ffi casglu o 4% ar eich taliadau.</b></p>\r\n",
+      "intro-both": "\r\n<p class='govuk-body'>Sefydlu a newid eich taliadau electronig yma.</p>\r\n<p class='govuk-body'> Gan eich bod yn defnyddio’r gwasanaeth Casglu a Thalu, gallwch dalu cynhaliaeth plant yn awtomatig i ni o’ch cyfrif banc gyda Debyd Uniongyrchol. Yna byddwn yn ei basio ymlaen i’r rhiant sy’n cael cynhaliaeth. Byddwn hefyd yn pasio ymlaen y taliadau fyddwch yn eu cael yn uniongyrchol i’ch cyfrif banc neu gymdeithas adeiladu.</p>\r\n<p class='govuk-body'><b>Byddwch yn dal i dalu mwy am y taliadau fyddwn yn eu casglu gennych, a bydd y taliadau fyddwch yn eu cael ar gyfer eich achosion Casglu a Thalu yn cael eu lleihau.</b></p>\r\n",
+      "intro-no-mops": "\r\n<p class='govuk-body'> Sefydlu a newid eich taliadau electronig yma.</p>\r\n<p class='govuk-body'>Gan eich bod yn defnyddio’r gwasanaeth Casglu a Thalu, gallwch dalu cynhaliaeth plant yn awtomatig i ni o’ch cyfrif banc gyda Debyd Uniongyrchol. Yna byddwn yn ei basio ymlaen i’r rhiant sy’n cael cynhaliaeth. Byddwn hefyd yn pasio ymlaen y taliadau fyddwch yn eu cael yn uniongyrchol i’ch cyfrif banc neu gymdeithas adeiladu</p>\r\n<p class='govuk-body'><b> Byddwch yn dal i dalu mwy am y taliadau fyddwn yn eu casglu gennych, a bydd y taliadau fyddwn yn eu cael ar gyfer eich achosion Casglu a Thalu yn cael eu lleihau.</b></p>\r\n",
+      "direct-payment-intro": "<p class='govuk-body'><b>Newid manylion eich cyfrif banc neu gymdeithas adeiladu.</b></p><p class='govuk-body'>Rydym yn talu eich taliadau uniongyrchol i mewn i gyfrif banc neu gymdeithas adeiladu. Os ydych eisiau newid manylion eich cyfrif banc neu gymdeithas adeiladu, cliciwch y botwm cyfatebol 'Newid y taliad uniongyrchol yma'.</p>",
+      "no-mop-desc": "<p class='govuk-body govuk-!-font-weight-bold'>Mae gennych achosion lle rydym ddim yn talu’n uniongyrchol i’ch cyfrif.<p class='govuk-body'>Dim ond munud mae’n ei gymryd i sefydlu taliad uniongyrchol. Cliciwch y botwm 'Sefydlu taliad' isod neu <a href='/contact-us-client'>cysylltu gyda ni</a></p>",
+      "collect-and-pay-direct-debit": "<p class='govuk-body'><b>Mae gennych Ddebyd Uniongyrchol wedi’i sefydlu ar gyfer eich achosion Casglu a Thalu.</b></p>\r\n<p class='govuk-body'>Dyma fanylion eich Debyd Uniongyrchol sydd wedi ei sefydlu yn barod. Os ydych eisiau ei newid, cliciwch y botwm 'Newid y Debyd Uniongyrchol yma’.</p>",
+      "change-payment": "\r\n<p class='govuk-body'>Newid eich taliad uniongyrchol</p>\r\n<p class='govuk-body'>Rydym yn talu eich taliadau uniongyrchol i mewn i gyfrif banc neu gymdeithas adeiladu. Os ydych eisiau newid manylion eich cyfrif banc neu gymdeithas adeiladu, cliciwch y botwm cyfatebol 'Newid y taliad uniongyrchol yma'.</p>\r\n",
+      "poca-desc": "<p class='govuk-body'><b>Taliadau uniongyrchol i gyfrif cyfredol y Swyddfa Bost</b></p><p class='govuk-body'>Os ydych eisiau gwneud newidiadau i fanylion eich cyfrif cyfredol y Swyddfa Bost, <a href='/contact-us-client'>cysylltu gyda ni</a></p>"
+    }
+  },
+  "paying-parent": {
+    "h1": "Fy manylion banc neu gymdeithas adeiladu ar gyfer y taliadau rydwyf yn eu gwneud",
+    "breadcrumb": "Fy manylion banc ar gyfer y taliadau rydwyf yn eu gwneud",
+    "pay-by-direct-debit": "Talu cynhaliaeth plant trwy Ddebyd Uniongyrchol",
+    "setup-direct-debit-desc": "Gallwch wneud taliadau cynhaliaeth plant ar gyfer eich achos Casglu a Thalu trwy Ddebyd Uniongyrchol o’ch cyfrif banc neu gymdeithas adeiladu. Mae’n hawdd sefydlu Debyd Uniongyrchol ar-lein neu drwy’r post.",
+    "setup-direct-debit-link": "Sefydlu Debyd Uniongyrchol",
+    "view-receive-payments": "Gweler sut rydych yn cael taliadau",
+    "row-heading": "Debyd Uniongyrchol ar gyfer",
+    "html": {
+      "intro": "\r\n<p class='govuk-body'> Sefydlu a newid eich taliadau electronig yma.</p>\r\n<p class='govuk-body'> Gan eich bod yn defnyddio Casglu a Thalu, gallwch dalu cynhaliaeth plant yn awtomatig o’ch cyfrif banc gyda Debyd Uniongyrchol a byddwn yn ei basio ymlaen i’r rhiant arall.</p>\r\n<p class='govuk-body'><b> Byddwch yn dal i orfod talu ffi casglu o 20% am bob taliad fyddwn yn ei gasglu gennych, ar ben eich swm cynhaliaeth plant rheolaidd.</b></p>\r\n        ",
+      "intro-both": "\r\n<p class='govuk-body'> Sefydlu a newid eich taliadau electronig yma.</p>\r\n<p class='govuk-body'> Gan eich bod yn defnyddio Casglu a Thalu, gallwch dalu cynhaliaeth plant yn awtomatig o’ch cyfrif banc gyda Debyd Uniongyrchol a byddwn yn ei basio ymlaen i’r rhiant arall. Gallwch hefyd ei gael yn uniongyrchol gennym i’ch cyfrif banc neu gymdeithas adeiladu.</p>\r\n<p class='govuk-body'><b> Byddwch yn dal i dalu mwy am y taliadau y byddwn yn eu casglu gennych, a bydd y taliadau fyddwch yn eu cael ar gyfer eich achosion Casglu a Thalu yn cael eu lleihau.</b></p>\r\n",
+      "no-mop-desc": "<p class='govuk-body govuk-!-font-weight-bold'> Nid oes gennych unrhyw ddulliau talu wedi’u sefydlu ar gyfer eich achosion Casglu a Thalu.</p><p class='govuk-body'>Dylech sefydlu un nawr.</p><p class='govuk-body'>Gallwch sefydlu Debyd Uniongyrchol ar-lein neu  <a href='/contact-us-client'>cysylltu gyda ni</a> . os ydych angen unrhyw help. Dim ond munud mae’n ei gymryd i sefydlu'r taliadau yma ar-lein – cliciwch ar y botwm 'Sefydlu Debyd Uniongyrchol’ isod. Byddwn yn cysylltu gyda chi os byddwn angen mwy o fanylion.</p>",
+      "collect-and-pay-direct-debit": "<p class='govuk-body'><b>Mae gennych Ddebyd Uniongyrchol wedi’i sefydlu ar gyfer eich achosion Casglu a Thalu.</b></p>\r\n<p class='govuk-body'> Dyma’r manylion o’ch Debyd Uniongyrchol sydd wedi'i sefydlu yn barod. Os ydych am ei newid, cliciwch ar y botwm 'Newid y Debyd Uniongyrchol yma'.</p>",
+      "employment": "<p class='govuk-body'> Dyma fanylion eich cyflogaeth. Os yw unrhyw rai ohonynt yn anghywir neu eu bod wedi newid, gallwch eu diweddaru yma. Nid yw'r adran yma yn cynnwys manylion am swyddi hunangyflogedig. Os ydych yn hunangyflogedig, byddwch angen <a class='govuk-link' href=\"#\">cysylltu gyda ni</a> ar wahân i ddiweddaru eich manylion.</p>\r\n<p class='govuk-body'> Rydym hefyd wedi dangos unrhyw fanylion incwm rydych wedi'u rhoi i ni ar gyfer pob swydd. Efallai ein bod wedi defnyddio'r ffigurau yma i gyfrifo eich taliadau cynhaliaeth plant ond rydym yn aml yn defnyddio gwybodaeth arall hefyd. I weld y ffigurau a ddefnyddiwyd gennym i gyfrifo eich cynhaliaeth plant, view your <a class='govuk-link'href=\"\">hanes cyfrifiad</a>.</p>\r\n        <p class='govuk-body'> Gallwch ddarparu tystiolaeth o unrhyw swyddi ar y diwedd drwy lanlwytho copi neu lun. Gallai hyn fod eich slip cyflog diweddaraf neu'n gontract cyflogaeth. Gall darparu hyn yn awr fod yn gyflymach ac efallai na fydd angen i ni gysylltu gyda chi.</p>",
+      "direct-debit-warning": "<p class='govuk-body'> Bydd ychwanegu Debyd Uniongyrchol yma DDIM yn stopio’r taliadau rydych yn eu gwneud drwy ddulliau eraill, a gallwn gymryd eich taliadau ddwywaith.</p><p class='govuk-body'> Os ydych angen newid unrhyw rai o'r dulliau talu eraill hyn, <a href='/contact-us-client'>cysylltu gyda ni</a></p><p class='govuk-body'>Gallwch sefydlu Debyd Uniongyrchol ar-lein neu  <a href='/contact-us-client'>cysylltwch gyda ni</a> . os ydych angen unrhyw help. Dim ond munud mae’n ei gymryd i sefydlu'r taliadau yma ar-lein – cliciwch ar y botwm 'Sefydlu Debyd Uniongyrchol’ isod. Byddwn yn cysylltu gyda chi os byddwn angen mwy o fanylion.</p>",
+      "mop-der": "<p class='govuk-body'><b> Mae gennych hefyd y dulliau talu canlynol wedi’u sefydlu ar gyfer eich achos(ion) Casglu a Thalu : DER</b></p><p class='govuk-body'><a href='/contact-us-client'>cysylltu gyda ni</a></p>",
+      "mop-deo": "<p class='govuk-body'><b>You also have the following methods of payment set up for your Collect & Pay case(s) : DEO</b></p>",
+      "mop-poca": "<p class='govuk-body'><b> Mae gennych hefyd y dulliau talu canlynol wedi’u sefydlu ar gyfer eich achos(ion) Casglu a Thalu : POCA</b></p><p class='govuk-body'><a href='/contact-us-client'>cysylltu gyda ni</a></p>",
+      "mop-direct-payment": "<p class='govuk-body'><b> Mae gennych hefyd y dulliau talu canlynol wedi’u sefydlu ar gyfer eich achos(ion) Casglu a Thalu : Taliad Uniongyrchol</b></p><p class='govuk-body'><a href='/contact-us-client'>cysylltu gyda ni</a></p>"
+    }
+  },
+  "change-direct-payment": {
+    "h1": " Talu'n uniongyrchol i fy nghyfrif",
+    "breadcrumb": " Talu'n uniongyrchol i fy nghyfrif",
+    "please-enter-valid-account-details": "Rhowch fanylion cyfrif dilys",
+    "use-this-form-to-ask-us_": " Defnyddiwch y ffurflen yma i ofyn i ni dalu eich cynhaliaeth yn uniongyrchol i'ch cyfrif banc neu gymdeithas adeiladu.",
+    "my-bank-or-building-society_": " Manylion fy nghyfrif banc neu gymdeithas adeiladu",
+    "which-child-or-children_": " Ar gyfer pa blentyn neu blant mae’r taliad yma?",
+    "please-choose-which-children_": "Dewiswch ar gyfer pa blant mae’r taliad yma.",
+    "account-holders-name": " Enw deiliad y cyfrif",
+    "please-enter-the-name-of_": " Rhowch enw deiliad y cyfrif banc, yn union fel y dangosir ar y manylion banc. Peidiwch â defnyddio unrhyw atalnodi heblaw am fylchau oni bai ei fod yn rhan o'r enw.",
+    "account-type": " Math o gyfrif",
+    "select": "Dewiswch",
+    "not-known": "Ddim yn gwybod",
+    "current-account": " Cyfrif Cyfredol",
+    "savings-account": " Cyfrif Cynilo",
+    "please-select-which-type_": " Dewiswch pa fath o gyfrif yw hwn. Bydd y rhan fwyaf o bobl yn defnyddio cyfrif cyfredol.",
+    "account-number": "Rhif y cyfrif",
+    "please-enter-your-bank-or_": " Rhowch eich rhif cyfrif banc neu gymdeithas adeiladu.  Fe welwch hyn ar eich cerdyn banc neu fanylion eraill. Rhowch y rhif yn unig, a dim bylchau na atalnodi.",
+    "sort-code": " Cod didoli",
+    "field-1": "Maes 1",
+    "field-2": "Maes 2",
+    "field-3": "Maes 3",
+    "please-enter-your-sort_": "Rhowch eich cod didoli, sy’n rif chwe digid ar eich cerdyn banc neu fanylion eraill. Rhowch y rhif yn unig, a dim bylchau na atalnodi.",
+    "building-society-roll-number_": "Rhif rôl cymdeithas adeiladu (os yw’n gymwys)",
+    "if-youre-using-a-building_": " Os ydych yn defnyddio cyfrif cymdeithas adeiladu, rhowch rif rôl eich cymdeithas adeiladu yma. Rhowch y rhif yn unig, a dim bylchau neu atalnodi. Os yw eich cymdeithas adeiladu yn defnyddio rhif cyfrif safonol a chod didoli yn lle rhif rôl, gallwch adael y maes yma yn wag.",
+    "i-confirm-that-i-am_": " Rydwyf yn cadarnhau fy mod naill ai'n ddeiliad cyfrif, yn llofnodwr awdurdodedig i'r cyfrif neu fy mod wedi fy awdurdodi i ddefnyddio'r cyfrif.",
+    "if-you-cannot-confirm_": " Os na allwch gadarnhau'r datganiad uchod, ni allwch ddefnyddio'r gwasanaeth ar-lein yma",
+    "error": {
+      "please-choose-which-day_.incorrect-format": " Dewiswch ar ba ddiwrnod o'r mis i dalu.",
+      "accountHolderName.incorrect-format":" Rhowch enw deiliad cyfrif dilys.",
+      "accountNumber.incorrect-format":" Rhowch rif deiliad cyfrif dilys.",
+      "accountType.incorrect-format":" Dewiswch y math o gyfrif.",
+      "instructionToBank-1.incorrect-format":" Cadarnhewch eich bod yn ddeiliad cyfrif neu'n llofnodwr awdurdodedig.",
+      "instructionToBank-1.invalid": " Darllenwch a derbyniwch y cyfarwyddyd i'ch banc neu gymdeithas adeiladu.",
+      "buildingSocNumber.incorrect-format":" Rhowch rif rôl cymdeithas adeiladu dilys.",
+      "sortCode.incorrect-format":" Rhowch god didoli dilys.",
+      "childNames.incorrect-format": "Dewiswch ar gyfer pa blant mae’r taliad." 
+    }
+  },
+  "change-direct-payment-confirm": {
+    "pay-direct-into-my-account": " Talu'n uniongyrchol i fy nghyfrif",
+    "is-this-correct": "<strong>Is this correct?</strong>",
+    "the-following-direct-payment_": " Byddwn yn talu eich cynhaliaeth plant i'r cyfrif canlynol:",
+    "child-or-children": "Plentyn neu blant",
+    "account-holders-name": "Enw deiliad y cyfrif",
+    "account-type": " Math o gyfrif",
+    "account-number": "Rhif y cyfrif",
+    "sort-code": "Cod didoli",
+    "building-society-roll-number": "Rhif rôl cymdeithas adeiladu"
+  },
+  "change-direct-debit": {
+    "breadcrumb": "Sefydlu Debyd Uniongyrchol",
+    "new-bank-details": "Manylion banc newydd",
+    "the-direct-debit-guarantee": " Y Warant Debyd Uniongyrchol",
+    "setup-or-change-direct_": "Sefydlu neu newid Debyd Uniongyrchol",
+    "use-this-form-to-set-up_": " Defnyddiwch y ffurflen yma i sefydlu taliadau'n uniongyrchol o'ch cyfrif. Byddwn yn delio gyda'ch banc neu gymdeithas adeiladu ar eich rhan i sefydlu eich debyd uniongyrchol.",
+    "if-you-prefer-not-to-use_": " Os yw'n well gennych beidio â defnyddio'r gwasanaeth ar-lein yma, gallwch <a href='#' class='govuk-link'> lawrlwythwo y ffurflen Debyd Uniongyrchol</a>, ei llenwi a'i phostio atom i’r cyfeiriad ar ein tudalen<a class='govuk-link' href='${mountUrl}contact-us-client'>cysylltu gyda ni</a>.",
+    "setting-up-a-new-direct-debit_": " Bydd sefydlu Debyd Uniongyrchol newydd yn canslo unrhyw Ddebyd Uniongyrchol sy'n bodoli rydych yn ei ddefnyddio i'n talu.",
+    "please-enter-new-direct-debit_": " Rhowch fanylion Debyd Uniongyrchol newydd.",
+    "service-user-number": " Rhif defnyddiwr gwasanaeth",
+    "please-enter-your-bank-or_": " Rhowch eich rhif cyfrif banc neu gymdeithas adeiladu.  Fe welwch hyn ar eich cerdyn banc neu fanylion eraill. Rhowch y rhif yn unig, a dim bylchau neu atalnodi. Gallwch ond sefydlu Debyd Uniongyrchol o gyfrif cymdeithas adeiladu os oes ganddo rif cyfrif yn y fformat yma.",
+    "pay-on-which-day_": " Talu ar ba ddiwrnod o'r mis?",
+    "the-money-will-come-out_": " Bydd yr arian yn dod allan o'ch cyfrif ar yr un diwrnod bob mis, neu'n syth ar ôl hynny os yw'n disgyn ar ddiwrnod yr wythnos neu ?yl y banc. Dywedwch wrthym pa ddiwrnod sy'n well gennych yma.",
+    "use-these-details": "Defnyddio’r manylion yma",
+    "we-already-have-some-of_": " Mae gennym ychydig o’ch manylion banc neu gymdeithas adeiladu yn barod. Os hoffech ailddefnyddio unrhyw rai o'r manylion yma, gallwch eu dewis o'r gwymplen a cliciwch y botwm 'Diweddaru’.",
+    "if-you-already-use-bank_": " Os ydych yn defnyddio manylion banc ar gyfer achos arall yn barod, gallwch ddewis eu defnyddio ar gyfer yr achos yma hefyd neu roi gwybodaeth cyfrif newydd.",
+    "instruction-to-bank_": "Cyfarwyddyd i fanc neu gymdeithas adeiladu",
+    "i-confirm-that-i-am_": " Rydwyf yn cadarnhau fy mod naill ai yn ddeiliad y cyfrif neu'n llofnodwr awdurdodedig i'r cyfrif, a drwy hyn yn awdurdodi fy manc neu gymdeithas adeiladu i dalu'r Gwasanaeth Cynhaliaeth Plant Ddebydau Uniongyrchol o'r cyfrif a nodir ar y cyfarwyddyd yma yn amodol ar y diogelwch a sicrheir gan y warant Debyd Uniongyrchol. Deallaf y gall y wybodaeth yma aros gyda'r Gwasanaeth Cynhaliaeth Plant ac, os felly, bydd y manylion yn cael eu pasio'n electronig i fy manc neu gymdeithas adeiladu. ",
+    "please-enter-new_": "Rhowch fanylion Debyd Uniongyrchol newydd.",
+    "details-marked_": "Rhaid i fanylion wedi eu marcio * gael eu cwblhau.",
+    "we-already-have_": " Mae gennym ychydig o’ch manylion banc neu gymdeithas adeiladu yn barod. Os hoffech ailddefnyddio unrhyw rai o'r manylion yma, gallwch eu dewis o'r gwymplen a cliciwch y botwm 'Parhau’.",
+    "the-guarantee-is-offered_": "<p class='govuk-body'> Cynigir y Warant yma gan bob banc a chymdeithas adeiladu sy'n derbyn cyfarwyddiadau i dalu Debydau Uniongyrchol.</p><p class='govuk-body'>Os oes unrhyw newidiadau i swm, dyddiad neu amlder eich Debyd Uniongyrchol, bydd y Gwasanaeth Cynhaliaeth Plant yn rhoi gwybod i chi 10 diwrnod gwaith cyn i'ch cyfrif gael ei ddebydu neu fel y cytunwyd fel arall. Os byddwch yn gofyn i'r Gwasanaeth Cynhaliaeth Plant gasglu taliad, bydd cadarnhad o'r swm a'r dyddiad yn cael ei roi i chi ar adeg y cais.</p><p class='govuk-body'>Os gwneir camgymeriad wrth dalu eich Debyd Uniongyrchol, gan y Gwasanaeth Cynhaliaeth Plant neu eich banc neu gymdeithas adeiladu, rydych yn sicr o gael ad-daliad llawn ac ar unwaith o'r swm a dalwyd gan eich banc neu gymdeithas adeiladu.</p><p class='govuk-body'> Os byddwch yn cael ad-daliad nad ydych yn gymwys iddo, mae'n rhaid i chi ei dalu'n ôl pan fydd y Gwasanaeth Cynhaliaeth Plant yn gofyn i chi wneud hynny.</p><p class='govuk-body'> Gallwch ganslo debyd uniongyrchol unrhyw bryd drwy gysylltu gyda'ch banc neu gymdeithas adeiladu. Efallai y bydd angen cadarnhad ysgrifenedig. Rhowch wybod i ni hefyd.</p>"
+  },
+  "change-direct-debit-confirm": {
+    "set-up-or-change_": "Sefydlu neu newid Debyd Uniongyrchol",
+    "the-following-direct_": "Bydd y Debyd Uniongyrchol canlynol yn cael ei sefydlu:",
+    "date-payment-is-due": " Dyddiad mae'r taliad yn ddyledus"
+  },
+  "previous-bank-details": "Manylion banc blaenorol"
+}

@@ -1,0 +1,165 @@
+{
+  "common": {
+    "page-title": "Fy nhaliadau",
+    "h1": "Fy nhaliadau",
+    "view-my-payment-plans-caption": "Gweld fy nghynlluniau talu",
+    "view-my-current-online-statement-caption": "Gweld fy nghyfriflen bresennol ar lein",
+    "make-a-payment-online-caption": "Gwnewch daliad ar-lein",
+    "view-old-statements-caption": "Gweld hen gyfriflenni",
+    "page-desc": "Gallwch gael hyd i fanylion o beth sydd angen i chi ei thalu, cofnodion o'ch taliadau a gwybodaeth ar sut i dalu yma. Gallwch hefyd dalu eich cynhaliaeth plant ar-lein.",
+    "view-statement-link": "Gweld fy nghyfriflen ar-lein bresennol",
+    "view-old-statement-link": "Gweld hen gyfriflenni",
+    "make-payment-link": "Gwneud taliad",
+    "current-online-statement-desc": "Gallwch weld manylion eich cyfriflen bresennol yma.",
+    "old-statements-desc": "Gallwch weld, lawrlwytho neu brintio copïau o'ch cyfriflenni blaenorol yma.",
+    "view-payment-plans": {},
+    "show-statement-for": "Dangos cyfriflenni am",
+    "records": "Cofnod(au) ",
+    "my-current-statements": {
+      "page-title": "Fy nghyfriflen ar-lein",
+      "h2": "Taliadau ar gyfer",
+      "summary-table": {
+        "caption": "Crynodeb cyflawn",
+        "heading1": "Balans cychwynol",
+        "heading2": "Taliadau sy'n daladwy am y cyfnod",
+        "heading3": "Ffioedd Casglu a Thalu sy'n daladwy am y cyfnod",
+        "heading4": "Taliadau a Dderbyniwyd",
+        "heading5": "Balans terfynol"
+      },
+      "closing-balance-table": {
+        "caption": "Balans terfynol a wnaed o",
+        "heading1": "Balans y ffioedd Casglu a Thalu",
+        "heading2": "Balans heb ei thalu blaenorol"
+      },
+      "additional-amounts-table": {
+        "caption": "Symiau Ychwanegol",
+        "heading1": "Cyfanswm y ffioedd Casglu a Thalu wedi eu talu"
+      },
+      "statement-table": {
+        "heading1": "Dyddiad",
+        "heading2": "Disgrifiad",
+        "heading3": "Balans"
+      }
+    },
+    "make-payment": {
+      "page-title": "Gwneud taliad",
+      "h1": "Gwneud taliad"
+    },
+    "old-statements": {
+      "page-title": "Fy nghyfriflenni",
+      "h1": "Hen gyfriflenni - taliadau a wnaed",
+      "html": {
+        "intro": "<p class='govuk-body'>Dyma rhestr o'ch cyfriflenni diweddar. Gallwch weld eich cyfriflenni trwy dewis dyddiadau a chlicio 'Dangos'</p><p class='govuk-body'>Cliciwch ar y disgrifiad i lawrlwytho PDF o'r gyfriflen.</p>"
+      },
+      "table": {
+        "heading1": "Beth oedd yn ddyledus gennych",
+        "heading2": "A dalwyd gennych"
+      },
+      "table-headers": {
+        "date-sent": "Dyddiad a anfonwyd",
+        "description": "Disgrifiad"
+      }
+    }
+  },
+  "employer": {
+    "page-desc": "Gwnewch daliad nawr, neu gweld taliadau a wnaed i ni yn y gorffennol.",
+    "view-payment-history-caption": "Gweld hanes eich taliadau",
+    "view-payment-history-desc": "Manylion o ba bryd y gwnaethoch daliad i ni a faint oedd eich taliadau.",
+    "make-a-payment-online-caption": "Gwnewch daliad ar lein",
+    "make-a-payment-online-desc": "Talwch ar lein gyda cherdyn debyd neu gerdyn credyd. Os nad ydych eisiau talu ar lein, edrychwch ar <a href='${mountUrl}#' class='govuk-link'>ffyrdd eraill i dalu</a>."
+  },
+  "dual-role-parent": {
+    "view-payments-desc": "Edrychwch ar eich Cynlluniau Talu i weld pa bryd a faint bydd rhaid i chi ei dalu. Gallwch hefyd weld manylion o daliadau a gawsoch.",
+    "make-payments-desc": "Os bydd rhaid i chi wneud taliad i ni, er enghraifft taliad ar gyfer eich cynhaliaeth plant neu orchymyn atebolrwydd, gallwch wneud hyn ar lein gyda cherdyn debyd neu gerdyn credyd. Os nad ydych eisiau talu ar-lein, ewch i <a href='${mountUrl}#' class='govuk-link'>ffyrdd arall i dalu</a>."
+    "view-payments-i-made": "Gweld taliadau a wnaed gennyf",
+    "view-payments-i-received": "Gweld taliadau a dderbyniais"
+  },
+  "paying-parent": {
+    "view-payments-desc": "Gweld eich Cynlluniau Talu i weld pa bryd a faint bydd rhaid i chi ei dalu.",
+    "make-payments-desc": "Os bydd rhaid i chi wneud taliad i ni, er enghraifft taliad ar gyfer eich cynhaliaeth plant neu orchymyn atebolrwydd, gallwch wneud hyn ar lein gyda cerdyn debyd neu gerdyn credyd. Os nad ydych eisiau talu ar lein, ewch i <a href='${mountUrl}#' class='govuk-link'>ffyrdd arall i dalu</a>.",
+    "view-payment-plans": {
+      "page-title": "Gweld cynllun talu",
+      "h1": "Fy Nghynllun Talu",
+      "page-desc": "Mae'r manylion isod yn dangos y taliadau byddwn yn ei gasglu gennych, fel sydd ar ddangos yn eich Cynllun Talu blynyddol. Bydd hyn hefyd yn dangos y taliadau rydych yn gwneud yn uniongyrchol i'r rhiant arall.",
+      "html": {
+        "info": "<p class='govuk-body'>Byddwn yn diweddaru eich Cynllun Talu pob tro rydym yn cyfrifo eich taliadau cynhaliaeth plant, felly mae hyn yn golygu mae'n gywir i'r cyfrifiad diwethaf.</p><p class='govuk-body'>Gall newidiadau cymryd sbel i ymddangos yma, felly cadw golwg o'ch negeseuon am fanylion o unrhyw newid diweddar.</p>"
+      },
+      "view-statements-link": "Gweld datganiad o daliadau",
+      "current-balance": "Balans presennol yw -Â£",
+      "table": {
+        "summary": "Y tabl canlynol yw eich cynllun talu am gyfnod blynyddol yr achos. Mae'n rhestru pa bryd bydd eich taliadau yn ddyledus, y dull talu a beth gytunodd i dalu. Gallwch hefyd printio'r cynllun talu yma.",
+        "caption": "Cyfnod blynyddol yr achos: ",
+        "caption2": " i ",
+        "heading1": "Taliad yn ddyledus ar",
+        "heading2": "Dull talu",
+        "heading3": "Math o wasanaeth",
+        "heading4": "Enw plentyn",
+        "heading5": "Beth wnaethoch chi gytuno i'w dalu"
+      },
+      "disclaimer": "Gan eich fod yn defnyddio'r gwasanaeth Casglu a Thalu, bydd ffi casglu o 20% yn gymwys i pob taliad rydym yn ei gasglu gennych, ar ben eich swm cynhaliaeth plant parhaol. Mae hyn yn golygu byddwch yn talu £ mewn fioedd casglu misol"
+    },
+    "my-current-statements": {
+      "online-statement-payments-title": "Datganiad ar-lein - taliadau a wnaed",
+      "online-statement-payments-breadcrumb": "Datganiad ar-lein - taliadau a wnaed",
+      "html": {
+        "intro": "<p class='govuk-body'>Dyma restr o'r holl daliadau a wnaethoch trwy'r Gwasanaeth Cynhaliaeth Plant. Cofiwch, pob tro rydym yn cyfrifo eich cynhaliaeth plant, byddwn yn anfon llythyr atoch sy'n dangos un union sut rydym wedi cyfrifo hyn. Gallwch weld y llythyrau yma yn <a class='govuk-link' href='${mountUrl}#'>Fy negeseuon a hanes cyswllt</a>.</p><p class='govuk-body'>Mae'r daflen <a href='${mountUrl}#'>Deall eich datganiad - canllaw i rieni sy'n talu</a> yn egluro beth yw'r gwahanol ddarnau o'r datganiad a hefyd yn egluro'r termau a ddefnyddiwyd gennym yn y datganiad</p>"
+      },
+      "table": {
+        "heading1": "Beth oedd yn ddyledus gennych",
+        "heading2": "A dalwyd gennych"
+      },
+      "as-you-used-collect-and-pay": "Gan eich bod yn defnyddio'r gwasanaeth Casglu a Thalu, bydd ffi casglu o 20% wedi ei gymhwyso i bob taliad rydym wedi ei gasglu gennych, ar ben eich swm cynhaliaeth plant parhaol.",
+      "as-you-used-direct-pay": "Gan eich bod wedi defnyddio'r gwasanaeth Talu Uniongyrchol, nid oedd ffi casglu wedi cael ei gymhwyso i'ch taliadau cynhaliaeth plant.",
+      "no-statements-available": "Dim cyfriflenni ar gael."
+    }
+  },
+  "paying-parent-closed-case": {
+    "view-payments-desc": "Nid yw eich cynllun talu ar gael eto."
+  },
+  "receiving-parent": {
+    "view-payments-desc": "Gallwch wweld y taliad diwethaf a gawsoch a'r taliad nesaf gallwch disgwyl ei gael yma.",
+    "make-payments-desc": "Os ydych angen gwneud taliad i ni, gallwch wneud hyn ar-lein gyda cherdyn debyd neu gerdyn gredyd. Os nad ydych eisiau talu ar-lein, ewch i <a href='${mountUrl}#' class='govuk-link'>ffyrdd arall i dalu</a>.",
+    "view-payment-plans": {
+      "page-title": "Taliadau a dderbyniwyd",
+      "h1": "Taliadau a dderbyniwyd",
+      "h2": "Fy achosion Casglu a Thalu",
+      "h3": "Taliadau am",
+      "page-desc": "Mae'r manylion isod yn dangos y taliadau a cawsoch yn ddiweddar a'r taliad nesaf gallwch disgwyl cael.",
+      "html": {
+        "info": "<p class='govuk-body'>Bydd ffi casglu o 4% yn gymwys i bob taliad Casglu a Thalu rydym yn trosglwyddo i chi. Na fydd ffioedd casglu yn gymwys i'ch taliadau Talu Uniongyrchol.</p>"
+      },
+      "table": {
+        "caption1": "Taliadau nesaf rwyf yn disgwyl",
+        "caption2": "Taliad diwethaf a gawsoch",
+        "heading1": "Swm y taliad",
+        "heading2": "Dyddiad mae'r taliad yn ddyledus",
+        "heading3": "Amlder y taliadau",
+        "heading4": "Cyfanswm sy'n parhau yn ddyledus",
+        "heading5": "Swm y taliad diwethaf",
+        "heading6": "Dyddiad a derbyniwyd y taliad",
+        "currency": "Â£",
+        "extra-info": "Eich ffi casglu wythnosol ar gyfer yr achos yma yw",
+        "button": "Gweld datganiad ar-lein"
+      },
+      "warning-symbol": "!"
+    },
+    "my-current-statements": {
+      "online-statement-payments-title": "Datganiad ar-lein - taliadau a derbyniwyd",
+      "online-statement-payments-breadcrumb": "Datganiad ar-lein - taliadau a derbyniwyd",
+      "html": {
+        "intro": "<p class='govuk-body'>Dyma restr o daliadau a dderbyniwyd gennych trwy'r Gwasanaeth Cynhaliaeth Plant. Gallwch newid rhwng achosion gwahanol gan ddefnyddio y gwymplen isod.</p><div class='panel panel-border-wide'><p class='govuk-body'>Cofiwch, pob tro rydym yn cyfrifo eich cynhaliaeth plant, byddwn yn anfon llythyr atoch sy'n dangos un union sut rydym wedi cyfrifo hyn. Gallwch weld y llythyrau yma yn <a class='govuk-link' href='${mountUrl}#'>'Fy negeseuon a hanes cyswllt'.</a></p><p class='govuk-body'>Mae'r daflen <a class='govuk-link' href='${leafletMountUrl}#'>Deall eich datganiad - canllaw i rieni sy'n cael cynhaliaeth</a> yn egluro beth yw'r gwahanol ddarnau o'r datganiad a hefyd yn egluro'r termau a ddefnyddiwyd gennym yn y datganiad.</p></div>"
+      },
+      "total-payments-issued-to-you": "Cyfanswm y taliadau a gawsoch",
+      "total-collect-and-pay-fees_": "Cyfanswm y ffioedd Casglu a Thalu a ddidynnwyd",
+      "table": {
+        "heading1": "Beth oedd yn ddyledus i chi",
+        "heading2": "Beth rydych wedi cael"
+      },
+      "as-you-used-collect-and-pay": "Gan eich bod yn defnyddio'r gwasanaeth Casglu a Thalu, bydd ffi casglu o 4% yn cael ei gymhwyso i bob taliad a drosglwyddwyd i chi.",
+      "as-you-used-direct-pay": "Gan eich bod yn defnyddio'r gwasanaeth Talu Uniongyrchol, ni chafodd ffioedd casglu eu cymhwyso i'ch talidau cynhaliaeth plant.",
+      "payments-due-to-you": "Taliadau sy'n ddyledus i chi am y cyfnod",
+      "payments-for": "Taliadau am",
+      "show": "Dangoswch"
+    }
+  }
+}

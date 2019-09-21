@@ -1,0 +1,15 @@
+{
+  "page-title": "Adolygu taliad",
+  "heading": "Taliad cerdyn debyd neu gerdyn credyd - cadarnhau y swm",
+  "desc": "Ailwiriwch fod y swm yn gywir. ac yna cliciwch 'Cadarnhau'. Os yw'n anghywir, cliciwch 'Golygu manylion' i'w newid",
+  "payment-description": {
+    "h2": "Fy nghyfeirnod",
+    "hint": "Dywedwch wrth y defnyddwyr am beth maen nhw'n dalu",
+    "row-1-col-2": "Golygu"
+  },
+  "payment-amount": {
+    "h2": "Swm y taliad(£)",
+    "row-1-col-2": "Golygu"
+  },
+  "button": "Parhau"
+}

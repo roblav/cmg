@@ -1,0 +1,18 @@
+{
+  "my-companys-address-details": "Manylion cyfeiriad fy nghwmni",
+  "here-are-the-addresses-we-have-for-your-company_": "Dyma'r cyfeiriadau sydd gennym ar gyfer eich cwmni. Rydym wedi cynnwys eich prif gyfeiriad post ac unrhyw gyfeiriadau cwmni eraill rydych wedi dweud wrthym amdanynt.",
+  "if-any-of-them-are-wrong_": "Os yw unrhyw rai ohonynt yn anghywir neu os ydych am ddileu neu ychwanegu cyfeiriad, gallwch wneud newidiadau yma.",
+  "add-a-new-address": "Ychwanegu cyfeiriad newydd",
+  "your-company-can-have-as-many-addresses-as-you-want_": "Gall eich cwmni gael cymaint o gyfeiriadau ag y dymunwch, ond dim ond un cyfeiriad post. Ychwanegwch gyfeiriad newydd ar gyfer eich cwmni yma.",
+  "address": "Cyfeiriad",
+  "this-is-your-companys_": "Dyma gyfeiriad ${addressType} eich cwmni.",
+  "this-is-your-companys-other-address": "Dyma gyfeiriad arall eich cwmni.",
+  "edit": "Golygu",
+  "delete": "Dileu",
+  "set-as-postal-address": "Gosod fel cyfeiriad post",
+  "this-is-the-latest-data-from-HMRC": "Dyma'r data diweddaraf gan CThEM",
+  "postal-address": "Cyfeiriad post",
+  "this-is-your-companys-payroll-address_": "Dyma gyfeiriad cyflogres eich cwmni a byddwn yn anfon eich holl bost yma.",
+  "other-addresses": "Cyfeiriadau eraill",
+  "other-address": "Cyfeiriad arall"
+}

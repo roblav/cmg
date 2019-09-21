@@ -1,0 +1,5 @@
+{
+  "title": "Mewngofnodi i’r Gwasanaeth Cynhaliaeth Plant i gleientiaid",
+  "p-1": "Byddwch angen eich Rhif Cyfeirnod Cwsmer, Rhif Yswiriant Gwladol a’ch rhif PIN saith digid a ddewisiwyd gennych pan sefydlwyd eich achos.",
+  "p-2": "Mae'n rhaid cwblhau’r manylion sydd wedi eu marcio gyda *"
+}

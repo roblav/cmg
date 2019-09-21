@@ -1,0 +1,59 @@
+{
+  "page-title": "Gwneud taliad ar-lein",
+  "h1": "Talu ar-lein gyda cherdyn debyd neu gerdyn credyd",
+  "h2": "Rhowch fanylion cerdyn",
+  "desc": "<p class='govuk-body'>Gallwch ddefnyddio'r ffurflen yma i dalu ar-lein gyda cherdyn debyd neu gerdyn credyd. Ni fyddwn yn codi ffi ychwanegol arnoch am dalu gyda cherdyn.</p><p class='govuk-body'>Cwblhewch y ffurflen ac yna cliciwch 'Nesaf' i barhau.</p><p class='govuk-body'>Os yw'r taliad ar gyfer gorchymyn atebolrwydd, sicrhewch eich bod yn dweud y rhif cyfeirnod wrthym yn y blwch 'Fy nghyfeirnod'.</p>",
+  "form": {
+    "card-number": {
+      "label": "Rhif cerdyn",
+      "hint": "Mathau o gardiau credyd a chardiau debyd a derbynnir"
+    },
+    "expiry-date": {
+      "label": "Dyddiad darfod",
+      "hint": "Er enghraifft, 10/20",
+      "month-label": "Mis",
+      "separator": " / ",
+      "year-label": "Blwyddyn"
+    },
+    "name-on-card": {
+      "label": "Enw ar y cerdyn"
+    },
+    "card-security-code": {
+      "label": "Cod diogelwch cerdyn",
+      "hint": "Y 3 digid olaf ar gefn y cerdyn"
+    },
+    "billing-address": {
+      "label": "Cyfeiriad bilio",
+      "hint": "Dyma'r cyfeiriad sy'n gysylltiedig â'r cerdyn",
+      "country-label": "Gwlad neu diriogaeth",
+      "building-number-label": "Rhif neu enw adeilad a stryd",
+      "town-city-label": "Tref neu Ddinas",
+      "postcode-label": "Cod post",
+      "email": {
+        "label": "Ebost",
+        "hint": "Byddwn yn anfon cadarnhad o'ch taliad yma"
+      }
+    }
+  },
+  "payment-form": {
+    "payment-amount": "Swm y taliad (£)",
+    "payment-amount-hint": "Dywedwch wrthym faint yr ydych am ei dalu.<br/>Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, sicrhewch eich bod yn rhoi pwynt degol a 2 ddigid ar gyfer ceiniog. Er enghraifft, 45.00<br/>Gall y swm talu yma hefyd ymddangos fel 'Swm archeb'.",
+    "reference": "Fy nghyfeirnod",
+    "reference-hint": "Os ydych yn talu am rywbeth heblaw cynhaliaeth parhaus, gallwch ychwanegu rhif cyfeirnod yma fel ein bod yn gwybod beth yw'r taliad. .<br/>Os ydych yn talu am orchymyn atebolrwydd, rhowch y rhif cyfeirnod yma fel y gallwn baru y taliad gyda'ch achos."
+  },
+  "i-accept-the-terms-of-use": "Rydwyf yn derbyn y <a href='#termsOfUse'>termau defnydd</a>",
+  "button": "Parhau",
+  "errors": {
+    "paymentAmount": {
+      "required": "Rhowch swm taliad dilys.",
+      "incorrect-format": "Rhowch swm taliad dilys."
+    },
+    "reference": {
+      "incorrect-format": "Rhowch gyfeirnod dilys.",
+      "unknown": "Sori ond mae rhywfaint o wybodaeth ar goll neu'n anghywir. Nid oes gennym unrhyw gofnod o'r cyfeirnod yma. Ceisiwch eto. Os na fyddwch yn rhoi cyfeirnod, byddwn yn dyrannu'r arian i'ch taliadau cynhaliaeth rheolaidd."
+    },
+    "acceptTandC": {
+      "required": "Nid ydych wedi derbyn y telerau defnyddio. Darllenwch y telerau defnyddio a ticiwch y blwch i ddweud wrthym eich bod yn eu derbyn."
+    }
+  }
+}

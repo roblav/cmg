@@ -1,0 +1,39 @@
+{
+  "page-title": "Cadarnhau eich taliad",
+  "heading": "Cadarnhau eich taliad",
+  "table": {
+    "row-1": {
+      "col-1": "Rhif cerdyn:",
+      "col-2": "************5556"
+    },
+    "row-2": {
+      "col-1": "Math o gerdyn:",
+      "col-2": "Visa"
+    },
+    "row-3": {
+      "col-1": "Dyddiad terfyn:",
+      "col-2": "12/20"
+    },
+    "row-4": {
+      "col-1": "Enw ar y cerdyn:",
+      "col-2": "CMG Defnyddiwr un"
+    },
+    "row-5": {
+      "col-1": "Cyfeiriad Bilio:",
+      "col-2": "Defnyddiwr CMG' Cyfeiriad, Enw'r stryd, Tref, Cod post, Gwlad"
+    },
+    "row-6": {
+      "col-1": "Taliad ar gyfer:",
+      "col-2": "Enghraifft o ddisgrifiad taliad"
+    },
+    "row-7": {
+      "col-1": "Cyfanswm:",
+      "col-2": "£20.00"
+    },
+    "row-8": {
+      "col-1": "Ebost cadarnhau:",
+      "col-2": "cmg_user@gsi.dwp.com"
+    }
+  },
+  "button": "Cadarnhau taliad"
+}

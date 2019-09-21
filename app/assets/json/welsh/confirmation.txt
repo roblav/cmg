@@ -1,0 +1,18 @@
+{
+  "page-title": "Cadarnhad",
+  "heading-1": "Taliad wedi'i gwblhau",
+  "p-1": "Eich rhif cyfeirnod yw <br><strong>HDJ2123F</strong>",
+  "p-2": "Byddwch yn cael e-bost cadarnhau o fewn yr awr nesaf.",
+  "heading-2": "Crynodeb taliad",
+  "table": {
+    "row-1": {
+      "col-1": "Taliad ar gyfer:",
+      "col-2": "CMG user 1"
+    },
+    "row-2": {
+      "col-1": "Cyfanswm:",
+      "col-2": "£20.00"
+    }
+  },
+  "button": "Yn ôl i GOV.UK"
+}

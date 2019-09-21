@@ -1,0 +1,55 @@
+{
+    "client": {
+        "page-title":"Hafan gwefan hunanwasanaeth",
+        "heading": "Gwefan hunanwasanaeth ar gyfer cleientiaid",
+        "intro": "Croeso i'r wefan hunanwasanaeth ar gyfer cleientiaid y Gwasanaeth Cynhaliaeth Plant. Os oes gennych achos gyda ni yn barod, gallwch ei reoli ar-lein yma. Os nad oes gennych achos, gallwch ddod o hyd i wybodaeth am gynhaliaeth plant - gan gynnwys sut i agor achos - yn <a href='https://www.gov.uk/child-maintenance' class='govuk-link'>GOV.UK</a> (ar gyfer achosion Prydain Fawr) neu <a href='https://www.nidirect.gov.uk/information-and-services/parents/child-maintenance-service' class='govuk-link'>NIDirect</a> (ar gyfer achosion Gogledd Iwerddon).",
+        "h4": "I gael mynediad i'ch achos cynhaliaeth plant ar-lein, rydym angen cadarnhau pwy ydych.",
+        "sign-in": "Mewngofnodwch i'ch cyfrif hunanwasanaeth isod.",
+        "mandatory-notice": "Rhaid i fanylion wedi eu marcio * gael eu cwblhau",
+        "help": "Help",
+        "login-form": {
+            "crn": "Rhif Cyfeirnod Cwsmer *",
+            "crnhelp": "<p><b>Eich Rhif Cyfeirnod Cwsmer</b></br>Mae eich rhif cyfeirnod cwsmer yn ddeuddeg digid o hyd ac yn dechrau 121. Fe gewch hyn ar unrhyw lythyrau rydym wedi'u hanfon atoch am eich achos.</p>",
+            "nino": "Rhif Yswiriant Gwladol *",
+            "ninohelp": "<p><b>Eich Rhif Yswiriant Gwladol</b></br>Mae eich Rhif Yswiriant Gwladol yn 9 nod o hyd. Dylai edrych rhywbeth fel hyn - AB123456C.</p>",
+            "pin": "Rhowch y digidau canlynol o'ch PIN",
+            "pinhelp": "<p><b>Digid o'ch PIN</b></br>Eich PIN cleient yw'r rhif saith digid ddewisoch pan agorwyd eich achos yn gyntaf. Rhowch y digid y gofynnwyd amdano.</p>",
+            "no-of-pin": {
+                "1st": "Digid 1af o'ch PIN *",
+                "2nd": "2il ddigid o'ch PIN *",
+                "3rd": "3ydd digid o'ch PIN *",
+                "4th": "4ydd digid o'ch PIN *",
+                "5th": "5ed digid o'ch PIN *",
+                "6th": "6ed digid o'ch PIN *",
+                "7th": "7ed digid o'ch PIN *"
+            },
+            "submit": "Anfon",
+            "forgotten-pin": "Anghofio PIN?",
+            "looking-for-employer": {
+                "heading":  "Os ydych yn chwilio am ein safle cyflogwr, rydych yn y lle anghywir",
+                "intro": "Mae'r safle yma ar gyfer unigolion sy'n talu neu'n cael cynhaliaeth plant. Os ydych yn gyflogwr sy'n talu cynhaliaeth plant eich gweithwyr drwy eu henillion, ewch i'r <a href='${mountUrl}employer-login' class='govuk-link'>safle hunanwasanaeth ar gyfer cyflogwyr</a>."
+            } 
+        }
+    },
+    "employer": {
+        "heading": "Gwefan hunanwasanaeth ar gyfer cyflogwyr",
+        "intro": "Croeso i'r wefan hunanwasanaeth ar gyfer cyflogwyr. Os ydych yn didynnu cynhaliaeth plant o enillion eich gweithwyr, gallwch reoli eich taliadau ar-lein yma.",
+        "h4": "I gael mynediad i gyfrif hunanwasanaeth eich sefydliad ar-lein, rydym angen cadarnhau pwy ydych.",
+        "sign-in": "Mewngofnodwch i gyfrif hunanwasanaeth eich sefydliad isod.",
+        "mandatory-notice": "Rhaid i fanylion wedi eu marcio * gael eu cwblhau",
+        "login-form": {
+            "ern": "Rhif Cyfeirnod Cyflogwr *",
+            "ernhelp": "<p><b>Eich Rhif Cyfeirnod Cyflogwr</b></br>Rhowch eich Rhif Cyfeirnod Cyflogwr gan y Gwasanaeth Cynhaliaeth Plant. Dyma'r rhif 12 digid y gallwch ddod o hyd i ar ben eich llythyrau.</p>",
+            "paye": "Rhif PAYE *",
+            "payehelp": "<p><b>Eich Rhif PAYE</b></br>Rhowch eich rhif PAYE gan Cyllid a Thollau EM. Gallwch ddod o hyd iddo ar eich llyfryn slip cyflog P30BC. e.e. 123/XY12345.</p>",
+            "submit": "Anfon",
+            "cancel":"Canslo",
+            "looking-for-client": {
+                "heading": "Os ydych yn chwilio am y safle cleient, rydych yn y lle anghywir",
+                "intro": "Mae'r safle yma ar gyfer cyflogwyr sy'n rheoli taliadau cynhaliaeth plant eu gweithwyr. Os ydych yn gleient yn barod i'r Gwasanaeth Cynhaliaeth Plant, eich i'r <a href='${mountUrl}client-login' class='govuk-link'>safle hunanwasanaeth ar gyfer cleientiaid</a>."
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,192 @@
+{
+  "common": {
+    "page-title": "Fy amserlenni",
+    "h1": "Fy amserlenni",
+    "page-desc": "Rydym wedi ei gwneud hi'n hawdd rheoli, golygu a lawrlwytho holl amserlenni eich cwmni yma. Gallwch hefyd weld manylion o'ch <a href='${mountUrl}my-schedules/recent-changes' class='govuk-link'>newidiadau diweddar</a>.",
+    "page-desc-large": "Rydym wedi ei gwneud hi'n hawdd rheoli, golygu a lawrlwytho holl amserlenni eich cwmni yma."
+  },
+  "change-payment-schedule": {
+    "caption": "Newid amserlen dalu",
+    "desc": "Derbyn neu addasu'r didyniadau ar gyfer pob gweithiwr ar amserlen dalu ar-lein. Gallwch hefyd ychwanegu, dileu neu olygu gweithwyr gyda Gorchmynion Didynnu o Enillion gan yr Asiantaeth Cynnal Plant.",
+    "desc-before-flag": "Derbyn neu addasu'r didyniadau ar gyfer pob gweithiwr ar amserlen dalu ar-lein. Gallwch hefyd ychwanegu, dileu neu olygu gweithwyr gyda ",
+    "desc-after-flag": " gan yr Asiantaeth Cynnal Plant.",
+    "desc-bold": "Gallwch weld enghraifft o'r camau hyn drwy wylio ein fideos 'Sut i' sydd wedi'u lleoli ar sianel YouTube yr Adran Gwaith a Phensiynau.",
+    "desc-large-org-before":"Mae gennych naill ai 250 neu fwy ",
+    "desc-large-org-after":" neu ni allwn ddynodi faint sydd gennych ar hyn o bryd. Mae hyn yn golygu na allwch olygu eich amserlen dalu ar-lein. Yn hytrach, crëwch amserlen gan ddefnyddio eich meddalwedd cyflogres a'i lanlwytho."
+
+  },
+  "upload-schedule": {
+    "caption": "Lanlwytho amserlen",
+    "desc": "Unwaith y byddwch wedi creu amserlen, gallwch ei lanlwytho yma. Lanlwythwch ffeil XML neu CSV os ydych yn defnyddio meddalwedd cyflogres, neu ffeil CSV gan ddefnyddio ein templed os ydych yn defnyddio taenlen.",
+    "desc2":"Am fwy am sut i safio'ch ffeil a pha fformatau i'w defnyddio, edrychwch ar ein gwybodaeth ar  <a href='${mountUrl}#' class='govuk-link'>cadw amserlen.</a>",
+    "desc-bold": "Gallwch weld enghraifft o'r camau hyn drwy wylio ein fideos 'Sut i' sydd wedi'u lleoli ar sianel YouTube yr Adran Gwaith a Phensiynau.",
+    "h1": "Lanlwytho amserlen",
+    "page-desc-1": "Gallwch lanlwytho eich amserlen dalu yma.",
+    "page-desc-2": "Am fwy yngl?n â sut i gadw'ch ffeil a pha fformat i'w ddefnyddio, edrychwch ar ein gwybodaeth ar <a href='${mountUrl}#'>cadw eich amserlen dalu.</a>",
+    "page-desc-3": "Dewiswch y ffeil ar eich cyfrifiadur, yna cliciwch 'Nesaf' i'w lanlwytho a symud i'r cam nesaf.",
+    "form": {
+      "p-1": "Cliciwch y botwm isod i ddod o hyd i'r ffeil amserlen ar eich cyfrifiadur.",
+      "select-schedule": "Dewiswch amserlen *",
+      "select-schedule-hint": "Mae'r botwm yma yn agor ffenestr i chi ddod o hyd i'r amserlen ar eich cyfrifiadur. Cliciwch drwodd i ble y gwnaethoch gadw'r ffeil, dewiswch yr un rydych eisiau a chliciwch iawn i'w dewis. Nodwch nad yw'r nodau arbennig yma yn cael eu caniatáu yn enw'r ffeil ^ $ % & * ; : , < > / \" '",
+      "p-2": "Os ydych yn anfon mwy nag un amserlen ar gyfer y cyfnod yma, (fel amserlenni wythnosol) byddwch angen ail wneud y broses lanlwytho ar gyfer pob ffeil."
+    }
+  },
+  "schedule-history": {
+    "caption": "Hanes amserlen",
+    "desc-before-flag": "Edrychwch ar eich ",
+    "desc-after-flag": " taliadau blaenorol a hen amserlenni.",
+    "desc-large-org-before":"Mae gennych naill ai 250 neu fwy ",
+    "desc-large-org-after":" neu ni allwn ddynodi faint sydd gennych ar hyn o bryd. Mae hyn yn golygu na allwch weld eich hanes amserlen ar-lein. Rydym yn anfon eich holl amserlenni i'ch cyfeiriad post."
+  },
+  "view-schedule-history": {
+    "h1": "Hanes amserlen",
+    "view-schedule-history": "Gweld hanes amserlen",
+    "this-is-a-list": "Dyma restr o holl amserlenni eich cwmni o'r misoedd blaenorol. I edrych ar amserlen unigol, dylech ei dewis a chlicio ar y dyddiad derbyn.",
+    "schedule-history-for": "Hanes amserlen ar gyfer",
+    "you-latest-account-balance": "Eich balans cyfrif diweddaraf yw ",
+    "view-payment-history": "Gweld hanes talu",
+    "table": {
+      "received-date": "Dyddiad derbyn (dd/mm/bbbb)",
+      "from-date": "Dyddiad o (dd/mm/bbbb)",
+      "to-date": "Dyddiad i (dd/mm/bbbb)",
+      "actual-deduction": "Didyniad gwirioneddol (£)"
+    },
+    "error": {
+      "fromDate": {
+        "must-be-past": "Rhowch Ddyddiad O Dilys.",
+        "date-order": "Rhaid i Ddyddiad O for cyn Dyddiad I.",
+        "must-be-12-months": "Ni all y cyfnod fod yn fwy na 12 mis",
+        "date-order-pay-sch": "<strong>Rhaid i'r dyddiad 'O' fod cyn y dyddiad 'I'.</strong><br/>Rhowch ystod dyddiad dilys."
+      },
+      "toDate": {
+        "must-be-past": "Rhowch ddyddiad I dilys.",
+        "must-be-12-months": "Ni all y cyfnod fod yn fwy na 12 mis"
+      },
+      "fromDay": {
+        "required": "Rhowch ddiwrnod o dilys.",
+        "valid-date": "Rhowch ddiwrnod o dilys."
+      },
+      "fromMonth": {
+        "required": "Rhowch fis o dilys.",
+        "valid-date": "Rhowch fis o dilys."
+      },
+      "fromYear": {
+        "required": "Rhowch flwyddyn o dilys.",
+        "valid-date": "Rhowch flwyddyn o dilys."
+      },
+      "toDay": {
+        "required": "Rhowch ddiwrnod i dilys.",
+        "valid-date": "Rhowch ddiwrnod i dilys."
+      },
+      "toMonth": {
+        "required": "Rhowch fis i dilys.",
+        "valid-date": "Rhowch fis i dilys."
+      },
+      "toYear": {
+        "required": "Rhowch flwyddyn i dilys.",
+        "valid-date": "Rhowch flwyddyn i dilys."
+      },
+      "no-schedules-available": "Dim amserlenni ar gael",
+      "no-schedules-match": "Nid oes amserlenni yn paru gyda'r dyddiadau yna. Newidiwch y dyddiadau a cheisio eto.",
+      "not-available": "Ddim ar gael"
+    }
+  },
+  "deo-schedule": {
+    "h1": "Amserlen Gorchymyn Didynnu o Enillion",
+    "this-is-a-list": "Dyma restr o'ch holl weithwyr gyda Gorchymyn Didynnu o Enillion (DEO) a'u manylion am y cyfnod a ddewiswyd gennych. Dim ond amserlenni rydym wedi eu prosesu a'u cwblhau rydym yn ddangos.",
+    "if-we-discussed": "Os ydym wedi trafod unrhyw newidiadau i'r amserlen ar ôl i chi ei hanfon atom, rydym wedi eu cynnwys yma. Mae hyn yn golygu y gallai'r amserlen fod ychydig yn wahanol i'r amserlen wreiddiol y gwnaethoch anfon.",
+    "schedule-for": "amserlen ar gyfer",
+    "table": {
+      "cas": "Asiantaeth Cynnal Plant?",
+      "first-name": "Enw cyntaf",
+      "surname": "Cyfenw",
+      "ni-number": "Rhif Yswiriant Gwladol",
+      "employee-ref": "Rhif cyf gweithiwr",
+      "monthly-due": "Dyledus yn fisol (£)",
+      "actual-deduction": "Didyniad gwirioneddol (£)",
+      "reason-for-difference": "Rheswm dros y gwahaniaeth",
+      "reason-for-change":"Rheswm dros eich newid"
+    },
+    "from": "O",
+    "to": "i"
+  },
+  "der-schedule": {
+    "h1": "Amserlen DER",
+    "this-is-a-list": "Dyma restr o'ch holl weithwyr gyda DER a'u manylion ar gyfer y cyfnod a ddewiswyd gennych. Dim ond amserlenni rydym wedi eu prosesu a'u cwblhau rydym yn dangos."
+  },
+  "recent-changes": {
+    "page-title":"Newidiadau diweddar i Orchymyn/Orchmynion Didynnu o Enillion",
+    "h1": "Newidiadau diweddar i Orchymyn/Orchmynion Didynnu o Enillion",
+    "this-is-a-list":"Dyma restr o'ch newidiadau diweddar i'ch Gorchymyn/Gorchmynion Didynnu o Enillion. Mae'n dangos unrhyw Orchymyn/Orchmynion Didynnu o Enillion sydd wedi cael ei ychwanegu/eu hychwanegu, dileu neu newid ers eich amserlen olaf.",
+    "p-1": "<a class='govuk-link' href='${mountUrl}#'>Gwneud taliad</a>",
+    "p-2": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>",
+    "what-do-you-want-to-do-now":"Beth ydych am ei wneud nawr?",
+    "table":{
+      "number":"Rhif",
+      "first-name":"Enw cyntaf",
+      "surname":"Cyfenw",
+      "ni-number":"Rhif Yswiriant Gwladol",
+      "previous-amount":"Swm Blaenorol (£)",
+      "current-amount":"Swm Presennol (£)"
+    },
+    "no-changes":"Nid oeddem yn gallu canfod unrhyw newidiadau i'ch amserlen darged bresennol. Gallai hyn fod oherwydd:",
+    "no-results":"Nid oes data i'w ddangos",
+    "no-changes-l1":"Nid oes gwahaniaeth rhwng eich amserlen bresennol ac amserlen y mis blaenorol.",
+    "no-changes-l2":"Nid oes amserlen darged ar gyfer y mis blaenorol.",
+    "no-changes-l3":"Nid ydym wedi gallu cynhyrchu amserlen darged ar gyfer y mis presennol na'r mis blaenorol.",
+    "no-changes-l4":"Nid ydych angen amserlen darged y mis yma.",
+    "added":"Gorchymyn/Gorchmynion Didynnu o Enillion wedi ei ychwanegu/eu hychwanegu",
+    "removed":"Gorchymyn/Gorchmynion Didynnu o Enillion wedi ei dileu/eu dileu",
+    "changed":"Gorchymyn/Gorchmynion Didynnu o Enillion wedi ei newid/eu newid"
+
+  },
+  "change-payment":{
+    "h1": "Newid amserlen dalu",
+    "change-payment": "Newid amserlen dalu",
+    "desc-p1":"Dyma eich amserlen dalu ddiweddaraf. Gwiriwch fod pob un o'ch gweithwyr sydd gyda Gorchmynion Didynnu o Enillion wedi'u rhestru. Os oes unrhyw fanylion yn anghywir neu ar goll, neu os ydych am ddiweddaru amserlen bresennol, <a class='govuk-link' href='${mountUrl}contact-us-client'>cysylltwch gyda ni</a>.",
+    "desc-p2":"Os nad ydych yn talu yn fisol",
+    "desc-p3":"Rydym wedi cyfrifo'r didyniadau ar sail fisol. Os ydych yn cwblhau'r amserlen am gyfnod o amser gwahanol, dewiswch yr ystod ddyddiad. Byddwch hefyd angen i chi hefyd lenwi'r symiau didynnu gwirioneddol gyda llaw.",
+    "desc-p4":"Eich lle chi yw gwirio'r symiau ar gyfer pob gweithiwr a chadarnhau'r swm cyfan sy'n ddyledus. Os ydych yn newid y swm ar gyfer unrhyw weithwyr, er enghraifft, os yw gweithiwr wedi gadael, byddwch angen dweud wrthym pam drwy ddewis o'r rhestr o resymau.",
+    "desc-p5":"Unwaith y byddwch wedi cwblhau'r amserlen yma, cliciwch 'Nesaf' i barhau.",
+    "desc-p6":"Os ydych wedi newid y dyddiadau, cliciwch \"Dangos\" i gadw'r newidiadau.",
+    "schedule-payment-for":"amserlen dalu",
+    "confirm-schedule-details":"Cadarnhau manylion amserlen",
+    "is-this-correct":"Ydy hyn yn gywir?",
+    "desc1":"Ailwiriwch fod yr holl fanylion yn eich amserlen yn gywir. Unwaith y byddwch wedi gwirio eu bod yn gywir, cliciwch 'Anfon' i gadarnhau'r newidiadau.",
+    "add-stat-pater":"Ychwanegu tâl tadolaeth statudol",
+    "deceased":"Wedi marw",
+    "left-employment":"Gadael cyflogaeth",
+    "multiple-reasons":"Rhesymau amrywiol",
+    "nrp-change":"Newid incwm Rhiant Dibreswyl",
+    "protected-earnings":"Enillion wedi'u diogelu",
+    "redundancy":"Diswyddiad",
+    "stat-adoption-pay":"Tâl mabwysiadu statudol",
+    "stat-maternity-pay":"Tâl mamolaeth statudol",
+    "stat-paternity-pay":"Tâl tadolaeth statudol",
+    "stat-sick-pay":"Tâl salwch statudol",
+    "min-drawing-rate":"Isafswm cyfradd codi yn berthnasol",
+    "not-recieving":"Ddim yn cael tâl rheolaidd",
+    "add-csa":"Ychwanegu Gorchmynion Didynnu o Enillion Asiantaeth Cynnal Plant",
+    "select":"Dewiswch",
+    "error":{
+      "actualDeduction-incorrect":"Rhowch ddidyniad gwirioneddol dilys neu ei adael yn '0'."
+    },
+    
+    "schedule-exists":"<strong>Rydych wedi darparu amserlen ar gyfer y cyfnod yma yn barod.</strong><br/>Dewiswch gyfnod dilys arall.",
+    "change-schedule-success": {
+      "weve-received-your-request":"Diolch, rydym wedi cael eich amserlen.",
+      "description": "<p class='govuk-body'><strong>Pryd i'n talu ni erbyn</strong></p><p class='govuk-body'>Os byddwch yn didynnu taliad <b>ar neu cyn</b> y 5ed o'r mis, dylai'r taliad ein cyrraedd erbyn y 19eg o'r mis hynny. Os byddwch yn didynnu taliad</br><b>ar ôl</b> y 5ed o'r mis, dylai'r taliad ein cyrraedd erbyn y 19eg o'r mis canlynol.</p><p class='govuk-body'>Er enghraifft:</p>",
+      "p-1": "<a class='govuk-link' href='${mountUrl}my-payments/make-payment'>Gwneud taliad</a>",
+      "p-2": "<a class='govuk-link' href='${mountUrl}'>Ffyrdd y gallwch dalu</a>",
+      "p-3": "<a class='govuk-link' href='${mountUrl}'>Yn ôl i fy hafan</a>",
+      "desc-p1":"Y cyfanswm rydych angen ei dalu ar gyfer yr amserlen yma yw",
+      "desc-p2":"Gallwch <a class='govuk-link' href='${mountUrl}'>dalu arlein</a> nawr neu ddarganfod y ffyrdd <a class='govuk-link' href='${mountUrl}'>eraill y gallwch dalu.</a>",
+      "desc-videos":"Gallwch weld enghraifft o hyn drwy wylio ein fideos 'Sut i' sydd wedi'u lleoli ar sianel YouTube yr Adran Gwaith a Phensiynau.",
+      "li-1":"Os gwneir y didyniad ar y 4ydd o Hydref yna mae'r taliad yn ddyledus cyn 19eg o Hydref,",
+      "li-2":"Os gwneir y didyniad ar y 7fed o Hydref yna mae'r taliad yn ddyledus cyn 19eg o Dachwedd",
+      "please-allow":"Dylech ganiatau o leiaf 4 diwrnod gwaith i daliad ein cyrraedd."
+      
+
+    }
+  }
+}

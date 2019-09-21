@@ -1,0 +1,25 @@
+{
+  "common": {
+    "h1": "Newid dewisiadau cyswllt ar gyfer fy nghwmni",
+    "h2": "Dewisiadau cyswllt newydd",
+    "change-contact-preference": "Newid dewisiadau cyswllt"
+  },
+  "choose-whether-to-receive": "Dewiswch p'un ai i gael llythyrau drwy'r post",
+  "you-can-tell-us-here": "Gallwch ddweud wrthym yma os ydych am gael copïau o'ch llythyrau drwy'r post. Byddwn bob amser yn anfon eich llythyrau i'ch cyfrif hunanwasanaeth, felly beth am arbed papur drwy ofyn i ni stopio anfon llythyrau drwy'r post?",
+  "you-wont-be-completely": "Ni fyddwch yn gwbl 'ddi-bapur' gan y byddwn weithiau yn gorfod cysylltu gyda chi drwy'r post, ond ar gyfer popeth arall byddwn ond yn anfon negeseuon ar-lein atoch drwy'r safle yma.",
+  "i-want-you-to": "Rydwyf am i chi:",
+  "send-all-my-letters-by-post": "Anfon fy holl lythyrau drwy'r post",
+  "only-send-letters-to-my-self-service": "anfon llythyrau i fy nghyfrif hunanwasanaeth yn unig",
+  "self-service-hint": "Dewiswch yr opsiwn yma os nad ydych am i ni anfon eich holl lythyrau drwy'r post. Weithiau bydd yn rhaid i ni gysylltu gyda chi mewn ffyrdd eraill, ond byddwn bob amser yn defnyddio'r wefan hunanwasanaeth pan allwn. Os ydych yn dewis yr opsiwn yma, byddai angen i chi fod wedi rhoi cyfeiriad e-bost i ni anfon eich hysbysiadau iddo. Gallwch ddweud wrthym eich cyfeiriad e-bost yn yr adran isod.",
+  "post-hint": "Dewiswch yr opsiwn yma os yw'n well gennych i ni gysylltu gyda chi drwy'r post, i'r cyfeiriad post rydych wedi'i roi i ni. Weithiau bydd yn rhaid i ni gysylltu gyda chi mewn ffyrdd eraill, ond byddwn bob amser yn defnyddio post pan allwn.",
+  "send-email-notifications": "Anfon hysbysiadau e-bost i'r cyfeiriad e-bost yma",
+  "if-weve-shown-your-correct-email": "Os ydym wedi dangos eich cyfeiriad e-bost cywir isod, nid oes angen i chi ei gadarnhau. Ond os ydych am ei newid neu os nad ydym wedi dangos cyfeiriad e-bost, ychwanegwch a chadarnhau'r cyfeiriad e-bost yma.",
+  "email-address": "Cyfeiriad e-bost",
+  "confirm-email-address": "Cadarnhau cyfeiriad e-bost",
+  "error": {
+    "email-required": "Rhowch gyfeiriad e-bost dilys.",
+    "confirm-email-required": "Rydym angen i chi gadarnhau eich cyfeiriad e-bost.",
+    "contact-preference-required": "Dewiswch ddewisiadau cyswllt",
+    "matches-existing": "Mae eich dewisiadau cyswllt newydd yr un fath a'ch rhai presennol. Dewiswch ddewisiadau cyswllt newydd neu cliciwch 'Canslo' os nad oes newid."
+  }
+}

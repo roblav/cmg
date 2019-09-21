@@ -1,0 +1,188 @@
+{
+  "i-have-started-a-new-job": "Rydwyf wedi dechrau swydd newydd",
+  "please-add-your-new-employers_": "Ychwanegwch fanylion eich cyflogwr newydd isod, a cliciwch ar 'Dod o hyd i gyflogwr' i weld rhestr o gyflogwyr sy'n paru gyda'r manylion yma. Dewiswch eich cyflogwr o'r rhestr a cliciwch 'Nesaf' i barhau.",
+  "please-enter-your-new-employers-details": "Rhowch fanylion eich cyflogwr newydd",
+  "employer-name": "Enw cyflogwr",
+  "enter-the-name-of-the-company_": "Rhowch enw'r cwmni yr oeddech yn gweithio iddo. Os yw'n enw hir, rydych ond angen rhoi rhai o'r llythrennau cyntaf. Byddwn yn defnyddio hyn a'r cod post i ddod o hyd i gyfeiriad llawn y cwmni.",
+  "postcode": "Cod post",
+  "enter-the-postcode-of-the-company_": "Rhowch cod post y cwmni lle rydych yn gweithio.",
+  "find-employer": "Dod o hyd i gyflogwr",
+  "if-you-cant-find-your-employer_": "Os na allwch ddod o hyd i'r cyflogwr ar ein rhestr, gallwch <a class='govuk-link' href='${mountUrl}contact-us-client'>gysylltu gyda ni</a> a byddwn yn ychwanegu enw eich cyflogwr i'r rhestr. Yn y cyfamser, cliciwch 'canslo' isod i symud ymlaen.",
+  "if-you-still-cant-find-them_": "Os ydych yn dal i fethu dod o hyd iddynt gallwch <a class='govuk-link' href='${mountUrl}contact-us-client'>gysylltu gyda ni</a> a byddwn yn ychwanegu enw eich cyflogwr i'r rhestr. Yn y cyfamser, cliciwch 'canslo' isod i symud ymlaen.",
+  "choose-your-employer": "Dewiswch eich cyflogwr",
+  "if-you-cant-find-your-employer-listed-above_": "Os na allwch ddod o hyd i'ch cyflogwr wedi ei restru uchod, ceisiwch chwilio am rai o'r llythrennau cyntaf yn unig.",
+  "new-employment-details": "Manylion cyflogaeth newydd",
+  "error": {
+    "employer-name": {
+      "required": "Rhowch ychydig o nodau cyntaf enw eich cyflogwr."
+    },
+    "postcode": {
+      "required": "Rhowch god post dilys.",
+      "no-results": "Nid oes canlyniad yn dod yn ôl i'ch chwiliad"
+    },
+    "emp-id": {
+      "required": "Nid ydych wedi dewis cyflogwr o'r rhestr. Dewch o hyd i’ch cyflogwr ar y rhestr a cliciwch arno – os nad yw ar y rhestr byddwch angen cysylltu gyda ni."
+    }
+  },
+  "add-new-job-details": {
+    "new-employment-details": "Manylion cyflogaeth newydd",
+    "please-tell-us-about-your-new-job-details-below_": "Dywedwch wrthym am eich swydd newydd isod, ac yna cliciwch ar 'Nesaf' i barhau.",
+    "if-this-job-is-for-a-special-employer_": "Os yw'r swydd yma ar gyfer cyflogwr arbennig, fel gwylwyr y glannau neu ddiffoddwr tân rhan amser, gallwch ddweud wrthym yma.",
+    "type-of-employment": "Math o gyflogaeth",
+    "start-date-of-new-employment": "Dyddiad dechrau * <span class='govuk-visually-hidden'>cyflogaeth newydd</span>",
+    "start-date": "Dyddiad dechrau",
+    "for-example-12-11-2007": "Er enghraifft, 12 11 2007",
+    "employmentTypeOption": {
+      "1": "Diffoddwr tân rhan amser",
+      "2": "Aelod o griw bad achub rhan amser",
+      "3": "Gwylwyr y glannau",
+      "4": "Byddin diriogaethol"
+    },
+    "error": {
+      "start-date": {
+        "required": "Rhowch ddyddiad dechrau dilys. Ni all y dyddiad dechrau fod yn y dyfodol."
+      }
+    }
+  },
+  "add-new-job-work-contacts": {
+    "my-work-contact-details": "Fy manylion cyswllt gwaith",
+    "if-its-a-uk-number_": "Os yw'n rif y DU, dewiswch 'DU' ac ychwanegu'r rhif llawn gan gynnwys y cod ardal, heb unrhyw fylchau e.e. 01617150123. Os nad yw'n rif y DU, dewiswch 'Rhyngwladol' ac ychwanegu'r rhif llawn gan ddechrau gyda'r cod gwledig. Peidiwch ag ychwanegu '00' neu '+' ar y dechrau e.e. 919912345678",
+    "my-phone-number-at-work": "Fy rhif ffôn yn y gwaith *",
+    "phone-number": "Rhif ffôn",
+    "my-fax-number-at-work": "Fy rhif ffacs yn y gwaith",
+    "fax-number": "Rhif ffacs",
+    "error": {
+      "phone-number": {
+        "required": "Rhowch rif ffôn gwaith dilys",
+        "uk.incorrect-format": "Rhowch rif ffôn gwaith  y DU dilys",
+        "international.incorrect-format": "Rhowch rif ffôn gwaith rhyngwladol dilys"
+      },
+      "ext.incorrect-format": "Rhowch estyniad dilys",
+      "fax-number": {
+        "uk.incorrect-format": "Rhowch rif Ffacs gwaith y DU dilys",
+        "international.incorrect-format": "Rhowch rif Ffacs gwaith rhyngwladol dilys"
+      }
+    }
+  },
+  "add-new-job-income-details": {
+    "enter-your-income-details": "Rhowch fanylion eich incwm",
+    "please-tell-us-about-you-new-income_": "Dywedwch wrthym am fanylion eich incwm newydd isod, ac yna cliciwch 'Nesaf' i barhau. Os mai dim ond eich cyflog clir rydych yn ei wybod, gallwch ddefnyddio'r <a href='#'>cyfrifydd ar-lein</a> yma i gyfrifo eich cyflog cyn treth.",
+    "annual-pay-before-tax": "Cyflog blynyddol cyn treth",
+    "annual-irregular-income": "Incwm blynyddol afreolaidd",
+    "annual-private-pension-contributions": "Cyfraniadau blynyddol pensiwn preifat",
+    "foreign-exchange-costs": "Costau cyfnewid tramor",
+    "please-tell-us-how-much-you-will-earn_": "Dywedwch wrthym faint y byddwch yn ei ennill mewn blwyddyn o'r swydd yma, cyn i dreth gael ei gymryd. Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+    "if-you-get-any-extra-income_": "Os ydych yn cael unrhyw incwm ychwanegol fel goramser, dywedwch wrthym faint ohonno fyddwch yn ei ennill mewn blwyddyn cyn i dreth gael ei gymryd. Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+    "if-your-pension-payments_": "Os yw eich taliadau pensiwn wedi newid, gallwch ddweud wrthym yma. Dywedwch wrthym faint ydych yn ei dalu mewn blwyddyn, cyn i dreth gael ei gymryd. Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+    "if-you-are-paid-in-another-currency_": "Os ydych yn cael eich talu mewn arian cyfred arall, efallai y bydd yn rhaid i chi dalu i'w drosi. Dywedwch wrthym faint ydych yn ei dalu bob blwyddyn. Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+    "error": {
+      "annualPayBeforeTax.required": "Rhowch swm dilys ar gyfer eich cyflog blynyddol cyn treth.",
+      "annualIrregularIncome.required": "Rhowch swm dilys ar gyfer eich incwm blynyddol afreolaidd.",
+      "annualPrivatePensionContributions.required": "Rhowch swm dilys ar gyfer eich cyfraniadau blynyddol pensiwn preifat.",
+      "foreignExchangeCosts.required": "Rhowch swm dilys ar gyfer eich costau cyfnewid tramor."
+    }
+  },
+  "add-new-job-confirm": {
+    "started-a-new-job-confirmation": "Cadarnhad dechrau swydd newydd",
+    "please-double-check-these-details_": "Ailwiriwch fod y manylion yma yn gywir ac yna cliciwch 'Derbyn ac anfon'. Os ydynt yn anghywir cliciwch 'Newid' i'w newid.",
+    "address": "Cyfeiriad",
+    "employers-details": "Manylion cyflogwr",
+    "job-details": "Manylion swydd",
+    "work-contact-details": "Manylion cyswllt gwaith",
+    "income-details": "Manylion incwm"
+  },
+  "tell-us-when-you-left": "Dywedwch wrthym pryd wnaethoch adael",
+  "left-employer": "Gadael swydd",
+  "left-employer-confirmation":"Cadarnhad gadael swydd",
+  "left-a-job":"Rydwyf wedi gadael swydd",
+  "if-you-left-a-job":"Dywedwch wrthym am y swyddi rydych wedi eu gadael isod ac yna cliciwch 'Nesaf' i barhau. Dyma'r cyflogwr/cyflogwyr rydych newydd ddweud wrthym eich bod wedi gadael.",
+  "these-are-the-employer":"Ychwanegwch y dyddiad y gwnaethoch adael eich swydd.",
+  "end-date":"Dyddiad gorffen *",
+  "address":"Cyfeiriad",
+  "end-date-confirm":"Dyddiad gorffen",
+  "please-confirm-your-end-date":"Cadarnhewch eich dyddiad gorffen.",
+  "please-double-check":"Ailwiriwch fod y dyddiad gorffen yma yn gywir ac yna cliciwch 'Anfon'. Os yw’n yn anghywir, cliciwch 'Newid' i'w newid.",
+  "end-date-confirmation":"Cadarnhewch pryd wnaethoch adael",
+  "confirm-changes":"Cadarnhau Newidiadau",
+  "left-job-error": {
+    "end-date": {
+      "required": "Yn anffodus, mae ychydig o wybodaeth ar goll neu'n anghywir. Rhowch ddyddiad gorffen dilys. Rhaid i'r dyddiad gorffen fod ar ôl eich dyddiad dechrau ac ni all fod yn y dyfodol."
+    }
+  },
+  "update-income-details": {
+    "h1": "Diweddaru Manylion Incwm",
+    "h1-confirm": "Cadarnhau - Diweddaru Manylion Incwm",
+    "confirm-desc": "Ailwiriwch fod y manylion yma yn gywir ac yna cliciwch 'Nesaf'. Os ydynt yn anghywir, cliciwch 'Golygu manylion' i'w newid.",
+    "please-confirm-values": "Cadarnhewch eich manylion incwm newydd",
+    "intro-desc": "Dywedwch wrthym am eich manylion incwm newydd isod, ac yna cliciwch 'Nesaf' i barhau.",
+    "income-change-warning": "Cofiwch, os yw eich incwm yn newid efallai y bydd ond yn effeithio ar faint o gynhaliaeth plant rydych yn ei dalu os yw'n newid o 25% neu fwy.",
+    "current-details-title": "Fy manylion incwm presennol ar:",
+    "enter-new-details-title": "Rhowch eich manylion newydd yma",
+    "form": {
+      "annual-pay": "Cyflog blynyddol cyn treth",
+      "annual-irregular": "Incwm blynyddol afreolaidd",
+      "annual-pension": "Cyfraniadau blynyddol pensiwn preifat",
+      "foreign-costs": "Costau cyfnewid blynyddol",
+      "annual-pay-hint": "Dywedwch wrthym faint fyddwch yn ei ennill mewn blwyddyn o'r swydd yma, cyn i dreth gael ei gymryd. Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+      "annual-irregular-hint": "Os ydych yn cael incwm ychwanegol fel goramser, dywedwch wrthym faint fyddwch yn ei ennill mewn blwyddyn o hyn cyn i dreth gael ei gymryd. Peidiwch â defnyddio arwydd £ - defnyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+      "annual-pension-hint": "Os yw eich taliadau pensiwn wedi newid, gallwch ddweud wrthym yma. Dywedwch wrthym faint ydych yn ei dalu mewn blwyddyn, cyn i dreth gael ei gymryd. Peidiwch â defnyddio arwydd £ - defyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+      "foreign-costs-hint": "Os ydych yn cael eich talu mewn arian cyfred arall, efallai y bydd yn rhaid i chi ei drosi. Dywedwch wrthym faint ydych yn ei dalu bob blwyddyn. Peidiwch â defnyddio arwydd £ - defyddiwch y rhif yn unig, gan wneud yn si?r eich bod yn ychwanegu pwynt degol a 2 ddigid ar gyfer ceiniogau. Er enghraifft, 45.00",
+    },
+    "errors": {
+      "updateIncomeDetailsForm": {
+        "no-change": "Mae'r manylion incwm newydd rydych wedi'u dewis yr un fath â'ch manylion incwm presennol. Rhowch fanylion incwm newydd, neu cliciwch 'Canslo' os nad oes newid."
+      },
+      "annualPay": {
+        "required": "Rhowch swm dilys ar gyfer eich cyflog blynyddol cyn treth.",
+        "incorrect-format": "Rhowch swm dilys ar gyfer eich cyflog blynyddol cyn treth.",
+        "same-as-current": "Mae'r manylion incwm newydd rydych wedi'u dewis yr un fath â'ch manylion incwm presennol. Rhowch fanylion incwm newydd, neu cliciwch 'Canslo' os nad oes newid."
+      },
+      "irregularIncome": {
+        "incorrect-format": "Rhowch swm dilys ar gyfer eich incwm blynyddol afreolaidd."
+      },
+      "pensionContributions": {
+        "incorrect-format": "Rhowch swm dilys ar gyfer eich cyfraniadau blynyddol pensiwn preifat."
+      },
+      "foreignExchangeCosts": {
+        "required": "Rhowch swm dilys ar gyfer eich costau cyfnewid tramor.",
+        "incorrect-format": "Rhowch swm dilys ar gyfer eich costau cyfnewid tramor."
+      }
+    }
+  },
+  "update-employer-contact-details": {
+    "h1": "Newid manylion cyflogwr",
+    "current-details-title": "Fy manylion cyswllt newydd ar:",
+    "enter-new-details-title": "Rhowch eich manylion cyswllt newydd yma",
+    "new-contact-details": "Fy manylion cyswllt newydd",
+    "desc": "Dywedwch wrthym am fanylion newydd eich cyflogwr isod, ac yna cliciwch 'Nesaf ' i barhau.",
+    "confirm-desc": "Ailwiriwch fod y manylion yma yn gywir ac yna cliciwch 'Nesaf'. Os ydynt yn anghywir, cliciwch 'Golygu manylion' i'w newid.",
+    "is-this-correct": "Ydy hyn yn gywir?",
+    "desc-required": "Rhaid i fanylion wedi eu marcio * gael eu cwblhau.",
+    "form": {
+      "phone-number": "Fy rhif ffôn yn y gwaith",
+      "fax-number": "Fy rhif ffacs yn y gwaith",
+      "phone-hint": "Ychwanegwch eich rhif ffôn gwaith yma, os oes gennych un.<br/><br/>Os yw'n rif y DU, dewiswch 'DU' ac ychwanegu'r rhif llawn gan gynnwys y cod ardal, heb unrhyw fylchau e.e. 01617150123.<br/><br/>Os nad yw'n rif y DU, dewiswch 'Rhyngwladol' ac ychwanegu'r rhif llawn gan ddechrau gyda'r cod gwledig. Peidiwch ag ychwanegu '00' neu '+' ar y dechrau e.e. 919912345678.<br/><br/><b>Rhif Estyniad</b><br/>Gall hyn fod yn uchafswm o 6 digid, gyda nodau 0-9 yn unig a dim bylchau. Os ydych yn ychwanegu rhif estyniad, rhaid i chi hefyd ychwanegu rhif ffôn llinell daear y DU.",
+      "fax-hint": "Ychwanegwch eich rhif ffacs yma, os oes gennych un.<br/><br/>Os yw'n rif y DU, dewiswch 'DU' ac ychwanegu'r rhif llawn gan gynnwys y cod ardal, heb unrhyw fylchau e.e. 01617150123.<br/><br/>Os nad yw'n rif y DU, dewiswch 'Rhyngwladol' ac ychwanegu'r rhif llawn gan ddechrau gyda'r cod gwledig. Peidiwch ag ychwanegu '00' neu '+' ar y dechrau e.e. 919912345678."
+    },
+    "errors": {
+      "matching-details": "Mae'r manylion cyflogwr newydd rydych wedi'u dewis yr un fath â'ch manylion cyflogwr presennol. Rhowch fanylion cyflogwr newydd, neu cliciwch 'Canslo' os nad oes newid.",
+      "workPhoneNumber": {
+        "required": "Rhowch rif ffôn Gwaith dilys.",
+        "incorrect-format": "Rhowch rif ffôn Gwaith dilys."
+      },
+      "phoneNumberType": {
+        "required": "Dewiswch y math o rif ffôn Gwaith."
+      },
+      "workFaxNumber": {
+        "required": "Rhowch rif ffacs Gwaith dilys.",
+        "incorrect-format": "Rhowch rif ffacs Gwaith dilys."
+      },
+      "faxNumberType": {
+        "required": "Dewiswch y math o rif ffacs gwaith."
+      },
+      "workExt": {
+        "incorrect-format": "Rhowch rif estyniad dilys."
+      }
+    }
+  }
+}

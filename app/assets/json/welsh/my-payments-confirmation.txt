@@ -1,0 +1,17 @@
+{
+  "my-payments": "Fy nhaliadau",
+  "make-a-payment-online": "Gwneud taliad ar lein",
+  "youve-made-your-payment-successfully": "Rydych wedi gwneud eich taliad yn llwyddiannus",
+  "thank-you-for-paying-online_": "Diolch am dalu ar lein. Rydym yn argymell i chi brintio'r dudalen yma a'i chadw at eich cofnodion. Gallai gymryd hyd at 3 diwrnod i ddangos ar eich cyfrif.",
+  "transaction-information": "Gwybodaeth Trafodiad",
+  "payment-amount": "Swm y taliad",
+  "gbp": "GBP",
+  "transaction-reference": "Cyfeirnod trafodiad",
+  "transaction-status": "Statws trafodiad".
+  "payment-made": "Gwnaed y taliad",
+  "debit-or-credit-card-payment-failed": "Taliad cerdyn debyd neu gerdyn credyd - taliad wedi methu",
+  "payment-failed": "Taliad wedi methu",
+  "sorry-we-couldnt-complete-our-payment": "Mae'n ddrwg gennym, ni allwn gwblhau eich taliad.",
+  "please-check-your-bank-or-building-society-records": "Gwiriwch eich cofnodion banc neu gymdeithas adeiladu cyn i chi geisio eto, i wneud yn siwr nad yw'r taliad wedi cael ei brosesu yn llwyddiannus. Efallai byddwch am gysylltu gyda nhw hefyd i ddarganfod pam na wnaeth y taliad weithio.",
+  "we-recommend-that-you-print-out-this-page_": "Rydym yn argymell i chi brintio'r dudalen yma a'i chadw at eich cofnodion. Dyfynnwch gyfeirnod y trafodiad os byddwch angen cysylltu gyda ni am y taliad."
+}
