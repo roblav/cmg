@@ -1,0 +1,361 @@
+
+{% extends "layout.html" %}
+
+{% from "back-link/macro.njk" import govukBackLink %}
+{% from "summary-list/macro.njk" import govukSummaryList %}
+{% from "button/macro.njk" import govukButton %}
+{% from 'phase-banner/macro.njk' import govukPhaseBanner %}
+
+{% from 'header/macro.njk' import govukHeader %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block after_header %}
+<!-- ACCOUNT MENU -->
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <nav id="secondary-nav" class="account-menu" role="navigation" aria-label="Account">
+        <a href="#" class="account-menu__link account-menu__link--home ">
+          <span class="account-icon account-icon--home">Home</span>
+        </a>
+        <ul id="accountMenuMain" class="account-menu__main">
+          <li><a href="#" class="govuk-link account-menu__link account-menu__link--active">Payments</a></li>
+          <li><a href="#" class="account-menu__link">Messages</a></li>
+          <li><a href="#" class="account-menu__link">Case details</a></li>
+          <li><a href="#" class="account-menu__link">Details & circumstances</a></li>
+          <li><a href="#" class="account-menu__link">Sign out</a></li>
+        </ul>
+      </nav>
+
+      <div class="govuk-phase-banner" style="border-bottom: 0px">
+        <p class="govuk-phase-banner__content govuk-!-width-full">
+          <span class="govuk-phase-banner__text" style="font-size: 14px;">You are logged in as <b>PayingParentOneFN</b></span>
+          <span class="govuk-phase-banner__text" style="text-align: right; font-size: 14px;">You last logged in on 01 January 2018, 12:00 AM</span>
+        </p>
+      </div>
+</div>
+  </div>
+</div>
+<!-- END ACCOUNT MENU -->
+{% endblock %}
+
+
+{% block content %}
+
+<!-- GOV.UK HEADER -->
+<div id="global-header-bar"></div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">Pagination - Example 2</h1>
+
+      <p>This page shows a summary of your cases with the Child Maintenance Service. We've shown an overview of each case, but you can see the full details by clicking on the 'See my maintenance calculation' link.</p>
+
+
+        <a href="#" class="govuk-link">govuk-link</a>
+
+
+      <table class="govuk-table pagination" width="100%" cellspacing="0" id="onlineStatements" data-pagecount="2">
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header govuk-link" align="center" data-sort-method="date">Date</th>
+              <th class="govuk-table__header" align="center" data-sort-method="none">What you were owed<br> (£)</th>
+              <th class="govuk-table__header" align="center" data-sort-method="none">What you received<br> (£)</th>
+              <th class="govuk-table__header" align="center" data-sort-method="none">Description</th>
+              <th class="govuk-table__header" align="center" data-sort-method="none">Balance (£)</th>
+            </tr>
+          </thead>
+
+          <tbody class="govuk-table__body">
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">2/2/2002</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">143.30</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">5/5/2005</td>
+                <td class="govuk-table__cell" valign="top">67.56</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">343.43</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">1/1/2001</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">317.83</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">3/3/2003</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">330.63</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">6/6/2006</td>
+                <td class="govuk-table__cell" valign="top">101.34</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">275.87</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">4/4/2004</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">156.10</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">7/7/2007</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+              </tr> 
+                          <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">2/2/2002</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">143.30</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">5/5/2005</td>
+                <td class="govuk-table__cell" valign="top">67.56</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">343.43</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">1/1/2001</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">317.83</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">3/3/2003</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">330.63</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">6/6/2006</td>
+                <td class="govuk-table__cell" valign="top">101.34</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">275.87</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">4/4/2004</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">156.10</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">7/7/2007</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+              </tr> 
+
+                            <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">2/2/2002</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">143.30</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">5/5/2005</td>
+                <td class="govuk-table__cell" valign="top">67.56</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">343.43</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">1/1/2001</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">317.83</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">3/3/2003</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">330.63</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">6/6/2006</td>
+                <td class="govuk-table__cell" valign="top">101.34</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">275.87</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">4/4/2004</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">156.10</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">7/7/2007</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+              </tr> 
+                          <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">2/2/2002</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">143.30</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">5/5/2005</td>
+                <td class="govuk-table__cell" valign="top">67.56</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">343.43</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">1/1/2001</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">317.83</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">3/3/2003</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">330.63</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">6/6/2006</td>
+                <td class="govuk-table__cell" valign="top">101.34</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">275.87</td>
+              </tr> 
+            
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">4/4/2004</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">187.33</td>
+                <td class="govuk-table__cell" valign="top">Direct Pay payment</td>
+                <td class="govuk-table__cell" valign="top">156.10</td>
+              </tr> 
+
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell" valign="top">7/7/2007</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+                <td class="govuk-table__cell" valign="top"></td>
+                <td class="govuk-table__cell" valign="top">Child maintenance due to you</td>
+                <td class="govuk-table__cell" valign="top">174.53</td>
+              </tr> 
+          
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5">
+              <label> Record(s)  1-7 of 7</label>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+
+        {# <div id="pageNavPosition" class="pager-nav"></div> #}
+        
+    
+      
+    </div>
+  </div>
+{% endblock %}
+
+{% block pageScripts %}
+
+  <script src="/public/javascripts/paginator-v2.js"></script>
+  <!-- Include sort types you need -->
+  <script src="/public/javascripts/tablesort.js"></script>
+  <script src='/public/javascripts/tablesort.number.js'></script>
+  <script src='/public/javascripts/tablesort.date.js'></script>
+
+  <script>
+
+  table = document.getElementById('onlineStatements');
+  let pager = new Pager('onlineStatements', 15);
+
+  // Initiate the pager
+  pager.init();
+  pager.showPageNav('pager');
+  pager.showPage(1);
+
+  new Tablesort(table);
+
+  table.addEventListener('beforeSort', function() {
+    // Pager adds .inactive to hide table rows
+    // Remove .inactive on all table rows
+    var rows = document.querySelectorAll(".govuk-table__cell")
+    for (var x = 1; x < rows.length; x++) {
+      rows[x].classList.remove("inactive");
+    }
+  });
+  
+  table.addEventListener('afterSort', function() {
+    // Remove Pager
+    var el = document.getElementsByClassName('pager-nav');
+    if (el[0].parentNode !== undefined) {
+      el[0].parentNode.removeChild(el[0]);
+    }
+    // Create new Pager to pick up the tablesort changes
+    pager.init();
+    pager.showPageNav('pager');
+    pager.showPage(pager.currentPage);
+  });
+
+    
+
+
+  </script>
+{% endblock %}
